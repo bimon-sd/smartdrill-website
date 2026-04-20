@@ -4,12 +4,8 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "file",
-        pathname: "D:/0_Smartdrill/CASE/**",
-      },
-      {
-        protocol: "file",
-        pathname: "D:/smartdrill-website/docs/ppt/**",
+        protocol: "https",
+        hostname: "0_Smartdrill.pages.dev",
       },
     ],
   },
