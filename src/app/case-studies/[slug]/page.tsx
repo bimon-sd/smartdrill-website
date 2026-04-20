@@ -2,7 +2,6 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import { caseStudies, getCaseStudyBySlug, getAdjacentCaseStudies } from "@/lib/caseStudies";
 
 interface PageProps {
@@ -40,12 +39,10 @@ export default async function CaseStudyDetailPage({ params }: PageProps) {
         <section className="pt-20">
           <div className="h-[40vh] bg-zinc-900 relative overflow-hidden">
             {caseStudy.images && caseStudy.images.length > 0 ? (
-              <Image
+              <img
                 src={caseStudy.images[0]}
                 alt={caseStudy.title}
-                fill
-                className="object-cover"
-                priority
+                className="w-full h-full object-cover"
               />
             ) : (
               <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-900" />
@@ -142,11 +139,10 @@ export default async function CaseStudyDetailPage({ params }: PageProps) {
                     key={index}
                     className="bg-zinc-900 rounded-xl overflow-hidden border border-zinc-800 aspect-video relative"
                   >
-                    <Image
+                    <img
                       src={image}
                       alt={`${caseStudy.title} - Image ${index + 1}`}
-                      fill
-                      className="object-cover"
+                      className="w-full h-full object-cover"
                     />
                   </div>
                 ))}

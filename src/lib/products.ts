@@ -72,7 +72,7 @@ export const products: Product[] = [
       "Flexible deployment options",
       "Ideal for restricted areas"
     ],
-    image: "/images/products/minibts.png"
+    image: "/images/products/minibts_1.png"
   },
   {
     id: "wireless-remote",
@@ -92,7 +92,7 @@ export const products: Product[] = [
       "Enables drone-assisted positioning",
       "Backup manual control available"
     ],
-    image: "/images/products/wrc.png"
+    image: "/images/products/wrc_spe.png"
   },
   {
     id: "guide-wire-tracking",
@@ -114,7 +114,7 @@ export const products: Product[] = [
       "High-resolution tracking",
       "Adaptive voltage adjustment"
     ],
-    image: "/images/products/guidewire.png"
+    image: "/images/products/全图示意图.png"
   },
   {
     id: "beacon-signal-power-supply",
@@ -179,7 +179,7 @@ export const products: Product[] = [
       "Single HDD rig emergency intersect",
       "Flexible BHA installation"
     ],
-    image: "/images/products/intersect.png"
+    image: "/images/products/关系示意图.png"
   },
   {
     id: "smartcross-software",

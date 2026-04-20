@@ -92,24 +92,22 @@ export default function FeaturesPage() {
                   </div>
 
                   <div className={`bg-zinc-900 rounded-2xl p-8 border border-zinc-800 ${index % 2 === 1 ? "lg:order-1" : ""}`}>
-                    <div className="bg-zinc-800 rounded-xl aspect-video flex items-center justify-center">
-                      <div className="text-center">
-                        <div className="w-20 h-20 bg-zinc-700 rounded-lg mx-auto mb-4 flex items-center justify-center">
-                          <svg className="w-10 h-10 text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                          </svg>
-                        </div>
-                        <p className="text-white/40 text-sm">{product.name}</p>
-                        <p className="text-white/30 text-xs">Product Image</p>
-                      </div>
+                    <div className="bg-zinc-800 rounded-xl aspect-video flex items-center justify-center overflow-hidden">
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        className="max-w-full max-h-full object-contain"
+                      />
                     </div>
                     {product.specsImage && (
                       <div className="mt-4 bg-zinc-800 rounded-xl p-4">
                         <p className="text-white/40 text-xs text-center mb-2">Specifications Diagram</p>
-                        <div className="bg-zinc-700 rounded aspect-video flex items-center justify-center">
-                          <svg className="w-10 h-10 text-white/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                          </svg>
+                        <div className="bg-zinc-700 rounded aspect-video flex items-center justify-center overflow-hidden">
+                          <img
+                            src={product.specsImage}
+                            alt={`${product.name} specs`}
+                            className="max-w-full max-h-full object-contain"
+                          />
                         </div>
                       </div>
                     )}

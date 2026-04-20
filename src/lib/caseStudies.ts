@@ -28,10 +28,7 @@ export const caseStudies: CaseStudy[] = [
       guidance: "SmartDrill BTS/Intersection"
     },
     description: "Several overhead HV cables which brings high interference. Salt field is not available for surface coil. BTS was used all the way for tracking. Intersect area was 1800m from 800T rig and 1227m from 480T rig. Intersect was successfully done within 5m.",
-    images: [
-      "D:/0_Smartdrill/CASE/Binzhou Port – Xinyue Oil Pipeline Salt Field HDD Intersect (3,021m)/4b5fbb35-eb34-4639-88ec-36cd262b75e4.png",
-      "D:/0_Smartdrill/CASE/Binzhou Port – Xinyue Oil Pipeline Salt Field HDD Intersect (3,021m)/c7f0feb8-799d-4865-a09a-7e9f6c63f075.png"
-    ]
+    images: []
   },
   {
     slug: "hutuo-river",
@@ -44,10 +41,7 @@ export const caseStudies: CaseStudy[] = [
       guidance: "SmartDrill BTS/Intersection"
     },
     description: "Main HDD rig suffered mud motor failure, therefore, the other rig must drill into the main pilot hole. Accurate intersection must be achieved to avoid side track.",
-    images: [
-      "D:/0_Smartdrill/CASE/HutuoRiver HDD Intersect (2,500m)/54a5fab9-b531-474c-9bc2-2c723166a7a4.png",
-      "D:/0_Smartdrill/CASE/HutuoRiver HDD Intersect (2,500m)/d26615f8-e4ed-4d04-b9b8-7fd464995b89.png"
-    ]
+    images: []
   },
   {
     slug: "leshan-shengli",
@@ -158,18 +152,7 @@ Despite these complexities, SmartDrill's technical team successfully executed th
     title: "European Customer Feedback",
     isImageOnly: true,
     description: "On-site installation and project execution feedback from European customers.",
-    images: [
-      "D:/0_Smartdrill/CASE/欧洲客户反馈/012366a7-004d-4952-a852-a5d630b7a504.png",
-      "D:/0_Smartdrill/CASE/欧洲客户反馈/06dd152d-970a-473c-bbec-5f06b158fb06.png",
-      "D:/0_Smartdrill/CASE/欧洲客户反馈/1a73693e-ddf4-4c17-a758-f497c00623dd.png",
-      "D:/0_Smartdrill/CASE/欧洲客户反馈/2817303b-f609-4bfb-8f65-d21304579bb3.png",
-      "D:/0_Smartdrill/CASE/欧洲客户反馈/61405535-6365-46dc-a116-0c61841dc9b6.png",
-      "D:/0_Smartdrill/CASE/欧洲客户反馈/702a1a5e-368e-4601-84ed-7b78a6060732.png",
-      "D:/0_Smartdrill/CASE/欧洲客户反馈/725096ba-ee5a-4302-ba73-9bc02e359fae.png",
-      "D:/0_Smartdrill/CASE/欧洲客户反馈/8d2c9ea0-dabe-46a5-92f9-f14183a95e3b.png",
-      "D:/0_Smartdrill/CASE/欧洲客户反馈/ca1075d6-c86f-4fc0-b08b-ec4c818ae9a8.png",
-      "D:/0_Smartdrill/CASE/欧洲客户反馈/ce367ad4-6ef6-49e3-9013-86204a81b3a7.png"
-    ]
+    images: []
   }
 ];
 

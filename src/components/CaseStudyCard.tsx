@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { CaseStudy } from "@/lib/caseStudies";
 
 interface CaseStudyCardProps {
@@ -17,12 +16,10 @@ export function CaseStudyCard({ caseStudy, priority = false }: CaseStudyCardProp
     >
       <div className="aspect-video bg-zinc-800 relative overflow-hidden">
         {hasImages ? (
-          <Image
+          <img
             src={caseStudy.images[0]}
             alt={caseStudy.title}
-            fill
-            className="object-cover group-hover:scale-105 transition-transform duration-300"
-            priority={priority}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         ) : (
           <div className="absolute inset-0 flex items-center justify-center">
