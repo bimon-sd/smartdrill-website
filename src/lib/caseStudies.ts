@@ -151,6 +151,9 @@ Despite these complexities, SmartDrill's technical team successfully executed th
     slug: "europe-feedback",
     title: "European Customer Feedback",
     isImageOnly: true,
+    stats: {
+      length: ""
+    },
     description: "On-site installation and project execution feedback from European customers.",
     images: []
   }
