@@ -1,0 +1,2 @@
+This unit powers the magnetic target to generate alternating magnetic signals. Designed for harsh field conditions, it features a ruggedized engineering enclosure with triple-proof protection and potted circuit boards for durability and low failure rates. 
+The built-in 12V lithium battery supports 30+ positioning cycles per charge. An optional 24V external battery can be connected for extended range and accuracy. Upgradeable with a remote control kit for wireless operation. Backed by a 3-year warranty.

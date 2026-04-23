@@ -210,20 +210,20 @@ export const magneticGuidanceSystem = {
   description: "Magnetic guidance system consists of four parts:",
   components: [
     {
-      name: "Laptop",
-      description: "Installed with guidance software"
+      name: "BHA",
+      description: "Consists of top/bottom centralizers, wet connect, probe, spacer bar and stinger"
+    },
+    {
+      name: "BTS",
+      description: "Surface coil or beacon, powered by AC supplies, generating magnetic field for tracking"
     },
     {
       name: "Interface Unit",
       description: "Communicates with probe and fulfills operation in combination with laptop"
     },
     {
-      name: "Magnetic Sources",
-      description: "Surface coil or beacon, powered by AC supplies, generating magnetic field for tracking"
-    },
-    {
-      name: "BHA",
-      description: "Consists of top/bottom centralizers, wet connect, probe, spacer bar and stinger"
+      name: "Laptop",
+      description: "Installed with guidance software"
     }
   ]
 };

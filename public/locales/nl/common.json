@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "videos": "Videos",
+    "caseStudies": "Case Studies",
+    "about": "About",
+    "contact": "Contact",
+    "getQuote": "Get Quote"
+  },
+  "home": {
+    "hero": {
+      "title": "Precision HDD Intersection",
+      "subtitle": "Magnetic Guidance System",
+      "description": "SmartDrill provides real-time magnetic tracking for horizontal directional drilling, enabling precise pipeline installations across challenging terrains worldwide.",
+      "exploreProducts": "Explore Products",
+      "viewCaseStudies": "View Case Studies"
+    },
+    "systemDelivered": {
+      "title": "Complete System Delivered",
+      "subtitle": "Full System · Ready to Deploy · 2-Crate Export Packaging",
+      "crate1": "Crate 1 - Main Equipment",
+      "crate2": "Crate 2 - Accessories"
+    },
+    "featuredProjects": {
+      "title": "Featured Projects",
+      "subtitle": "Real-world HDD projects completed with SmartDrill guidance systems",
+      "viewAll": "View All Case Studies"
+    },
+    "whyChoose": {
+      "title": "Why Choose SmartDrill?",
+      "subtitle": "Trusted by HDD contractors worldwide for precision, reliability, and performance",
+      "items": {
+        "realTime": "Real-Time Tracking",
+        "realTimeDesc": "Continuous magnetic field monitoring provides instant position updates",
+        "highPrecision": "High Precision",
+        "highPrecisionDesc": "Millimeter-level accuracy in challenging soil conditions",
+        "easyOperation": "Easy Operation",
+        "easyOperationDesc": "Intuitive software interface reduces learning curve",
+        "allWeather": "All-Weather",
+        "allWeatherDesc": "Reliable operation in various environmental conditions",
+        "support": "Comprehensive Support",
+        "supportDesc": "Technical training and lifetime software updates",
+        "costEffective": "Cost Effective",
+        "costEffectiveDesc": "Competitive pricing with no hidden costs"
+      },
+      "viewAllProducts": "View All Products"
+    },
+    "videos": {
+      "title": "Product Videos",
+      "subtitle": "Watch comprehensive tutorials covering system setup and operation",
+      "viewAll": "View All Videos"
+    }
+  },
+  "features": {
+    "title": "Product Features",
+    "subtitle": "Comprehensive magnetic guidance solutions for horizontal directional drilling",
+    "magneticSystem": {
+      "title": "Magnetic Guidance System",
+      "subtitle": "Four Essential Components",
+      "description": "Magnetic guidance system consists of four parts:"
+    },
+    "specifications": "Specifications",
+    "keyBenefits": "Key Benefits",
+    "specsDiagram": "Specifications Diagram"
+  },
+  "caseStudies": {
+    "title": "Case Studies",
+    "subtitle": "Real-world projects demonstrating SmartDrill precision guidance solutions",
+    "stats": {
+      "projects": "Projects Completed",
+      "longest": "Longest Crossing",
+      "countries": "Countries",
+      "accuracy": "Encounter Accuracy"
+    },
+    "projectDescription": "Project Description",
+    "projectGallery": "Project Gallery",
+    "projectImages": "Project Images",
+    "previousProject": "Previous Project",
+    "nextProject": "Next Project",
+    "backToCaseStudies": "Back to Case Studies",
+    "stats": {
+      "length": "Length",
+      "pipeSpec": "Pipe Spec",
+      "elevation": "Elevation",
+      "formation": "Formation",
+      "rigs": "HDD Rigs",
+      "guidance": "Guidance"
+    }
+  },
+  "about": {
+    "title": "About SmartDrill",
+    "subtitle": "Leading provider of precision magnetic guidance systems for HDD drilling",
+    "productRange": "Product Range",
+    "applications": "Applications",
+    "appItems": {
+      "river": "River crossings",
+      "mountain": "Mountain crossings",
+      "highway": "Highway/railway crossings",
+      "urban": "Urban utility installations",
+      "oilGas": "Oil & gas pipeline installation",
+      "water": "Water supply systems",
+      "telecom": "Telecommunications conduit"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for inquiries, quotes, or technical support",
+    "name": "Name",
+    "email": "Email",
+    "company": "Company",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again."
+  },
+  "videos": {
+    "title": "Product Videos",
+    "subtitle": "Watch comprehensive tutorials covering system setup and operation",
+    "undergroundEquipment": "Underground Equipment Connection",
+    "groundEquipment": "Ground Equipment Setup",
+    "softwareInterface": "Software Interface Guide"
+  },
+  "footer": {
+    "tagline": "Precision HDD Magnetic Guidance System",
+    "products": "Products",
+    "company": "Company",
+    "resources": "Resources",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "SmartDrill. All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry"
+  }
+}

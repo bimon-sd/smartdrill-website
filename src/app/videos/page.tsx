@@ -1,40 +1,45 @@
+"use client";
+
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { useTranslation } from "react-i18next";
 
 const videos = [
   {
-    title: "Underground Equipment Connection",
+    titleKey: "videos.undergroundEquipment",
     duration: "4:05",
     description: "Step-by-step guide to connecting underground equipment components"
   },
   {
-    title: "Ground Equipment Setup",
+    titleKey: "videos.groundEquipment",
     duration: "1:12",
     description: "Quick overview of surface equipment installation"
   },
   {
-    title: "Software Interface Guide",
+    titleKey: "videos.softwareInterface",
     duration: "2:33",
     description: "Navigate SmartCross software interface with ease"
   },
   {
-    title: "Data Acquisition Tutorial",
+    titleKey: "videos.dataAcquisition",
     duration: "2:42",
     description: "Learn how to acquire and interpret tracking data"
   },
   {
-    title: "Key Concepts Explained",
+    titleKey: "videos.keyConcepts",
     duration: "2:31",
     description: "Understanding magnetic guidance fundamentals"
   },
   {
-    title: "Plan Data Workflow",
+    titleKey: "videos.planWorkflow",
     duration: "2:46",
     description: "Efficient workflow for project planning and execution"
   }
 ];
 
 export default function VideosPage() {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen bg-black text-white">
       <Header />
@@ -42,9 +47,9 @@ export default function VideosPage() {
         {/* Page Hero */}
         <section className="pt-32 pb-16 bg-gradient-to-b from-zinc-900 to-black">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">Product Videos</h1>
+            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">{t('videos.title')}</h1>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
-              Watch our comprehensive tutorials covering system setup, operation, and data analysis
+              {t('videos.subtitle')}
             </p>
           </div>
         </section>
@@ -68,7 +73,7 @@ export default function VideosPage() {
                     </span>
                   </div>
                   <div className="p-4">
-                    <h3 className="text-white font-medium mb-1">{video.title}</h3>
+                    <h3 className="text-white font-medium mb-1">{t(video.titleKey)}</h3>
                     <p className="text-white/50 text-sm">{video.description}</p>
                   </div>
                 </div>

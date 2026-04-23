@@ -1,29 +1,20 @@
+"use client";
+
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { caseStudies, getCaseStudyBySlug, getAdjacentCaseStudies } from "@/lib/caseStudies";
+import { useTranslation } from "react-i18next";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
-  return caseStudies.map((cs) => ({
-    slug: cs.slug,
-  }));
-}
-
-export async function generateMetadata({ params }: PageProps) {
-  const { slug } = await params;
-  const caseStudy = getCaseStudyBySlug(slug);
-  if (!caseStudy) return { title: "Not Found" };
-  return { title: `${caseStudy.title} | SmartDrill` };
-}
-
 export default async function CaseStudyDetailPage({ params }: PageProps) {
   const { slug } = await params;
   const caseStudy = getCaseStudyBySlug(slug);
+  const { t } = useTranslation();
 
   if (!caseStudy) {
     notFound();
@@ -56,7 +47,7 @@ export default async function CaseStudyDetailPage({ params }: PageProps) {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
-                Back to Case Studies
+                {t('caseStudies.backToCaseStudies')}
               </Link>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
                 {caseStudy.title}
@@ -75,37 +66,37 @@ export default async function CaseStudyDetailPage({ params }: PageProps) {
               {caseStudy.stats.length && (
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-500">{caseStudy.stats.length}</div>
-                  <div className="text-white/40 text-sm mt-1">Length</div>
+                  <div className="text-white/40 text-sm mt-1">{t('caseStudies.stats.length')}</div>
                 </div>
               )}
               {caseStudy.stats.pipeSpec && (
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-500">{caseStudy.stats.pipeSpec}</div>
-                  <div className="text-white/40 text-sm mt-1">Pipe Spec</div>
+                  <div className="text-white/40 text-sm mt-1">{t('caseStudies.stats.pipeSpec')}</div>
                 </div>
               )}
               {caseStudy.stats.elevation && (
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-500">{caseStudy.stats.elevation}</div>
-                  <div className="text-white/40 text-sm mt-1">Elevation</div>
+                  <div className="text-white/40 text-sm mt-1">{t('caseStudies.stats.elevation')}</div>
                 </div>
               )}
               {caseStudy.stats.formation && (
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-500 text-sm">{caseStudy.stats.formation}</div>
-                  <div className="text-white/40 text-sm mt-1">Formation</div>
+                  <div className="text-white/40 text-sm mt-1">{t('caseStudies.stats.formation')}</div>
                 </div>
               )}
               {caseStudy.stats.rigs && (
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-500 text-sm">{caseStudy.stats.rigs}</div>
-                  <div className="text-white/40 text-sm mt-1">HDD Rigs</div>
+                  <div className="text-white/40 text-sm mt-1">{t('caseStudies.stats.rigs')}</div>
                 </div>
               )}
               {caseStudy.stats.guidance && (
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-500 text-sm">{caseStudy.stats.guidance}</div>
-                  <div className="text-white/40 text-sm mt-1">Guidance</div>
+                  <div className="text-white/40 text-sm mt-1">{t('caseStudies.stats.guidance')}</div>
                 </div>
               )}
             </div>
@@ -117,9 +108,27 @@ export default async function CaseStudyDetailPage({ params }: PageProps) {
           <section className="py-16 bg-black">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="max-w-3xl">
-                <h2 className="text-2xl font-bold text-white mb-6">Project Description</h2>
-                <div className="text-white/70 leading-relaxed whitespace-pre-line">
-                  {caseStudy.description}
+                <h2 className="text-2xl font-bold text-white mb-6">{t('caseStudies.projectDescription')}</h2>
+                <div className="text-white/70 leading-relaxed space-y-4">
+                  {caseStudy.description.split('\n\n').map((paragraph, pIndex) => (
+                    <div key={pIndex}>
+                      {paragraph.startsWith('- ') || paragraph.startsWith('• ') ? (
+                        <ul className="list-disc list-inside space-y-2 ml-4">
+                          {paragraph.split('\n').map((line, lIndex) => (
+                            <li key={lIndex} className="text-white/70">{line.replace(/^[-•]\s*/, '')}</li>
+                          ))}
+                        </ul>
+                      ) : paragraph.match(/^\d+\)/) ? (
+                        <ol className="list-decimal list-inside space-y-2 ml-4">
+                          {paragraph.split('\n').map((line, lIndex) => (
+                            <li key={lIndex} className="text-white/70">{line.replace(/^\d+\)\s*/, '')}</li>
+                          ))}
+                        </ol>
+                      ) : (
+                        <p className="text-white/70 leading-relaxed">{paragraph}</p>
+                      )}
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
@@ -131,7 +140,7 @@ export default async function CaseStudyDetailPage({ params }: PageProps) {
           <section className="py-16 bg-zinc-950">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <h2 className="text-2xl font-bold text-white mb-8 text-center">
-                {caseStudy.isImageOnly ? "Project Images" : "Project Gallery"}
+                {caseStudy.isImageOnly ? t('caseStudies.projectImages') : t('caseStudies.projectGallery')}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {caseStudy.images.map((image, index) => (
@@ -164,7 +173,7 @@ export default async function CaseStudyDetailPage({ params }: PageProps) {
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                     </svg>
-                    Previous Project
+                    {t('caseStudies.previousProject')}
                   </div>
                   <div className="text-white font-medium group-hover:text-blue-400 transition-colors">
                     {prev.title}
@@ -179,7 +188,7 @@ export default async function CaseStudyDetailPage({ params }: PageProps) {
                   className="flex-1 bg-zinc-900 rounded-xl p-6 border border-zinc-800 hover:border-blue-500/50 transition-all group text-right"
                 >
                   <div className="text-white/40 text-sm mb-2 flex items-center justify-end gap-2">
-                    Next Project
+                    {t('caseStudies.nextProject')}
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>

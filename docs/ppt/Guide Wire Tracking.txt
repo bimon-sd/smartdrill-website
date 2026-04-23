@@ -1,0 +1,4 @@
+The guide wire tracking system is available in AC and DC modes, and the surface loop is varied in large coil (P2) with full coverage of centerline, small coil (APS), and circular mini-coil. Multiple turns can be applied in coil layout to increase the magnetic field strength. With high-resolution probe and AC power supplies, the maximum surveying depth of the large coil is up to 300m.
+
+
+AC power supplies is especially used for guide wire tracking, with a maximum output current of 12.5 Amps, featured in easy operation. The power supply adaptively adjust the voltage according to the load after setting the output current value.

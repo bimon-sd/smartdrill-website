@@ -1,8 +1,13 @@
+"use client";
+
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Contact } from "@/components/Contact";
+import { useTranslation } from "react-i18next";
 
 export default function ContactPage() {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen bg-black text-white">
       <Header />
@@ -10,9 +15,9 @@ export default function ContactPage() {
         {/* Page Hero */}
         <section className="pt-32 pb-16 bg-gradient-to-b from-zinc-900 to-black">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">Contact Us</h1>
+            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">{t('contact.title')}</h1>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
-              Get in touch for product information, pricing, or project consultation
+              {t('contact.subtitle')}
             </p>
           </div>
         </section>

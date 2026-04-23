@@ -1,0 +1,8 @@
+Adding an AC electromagnetic transmitter module on one side makes the intersection and tracking to the probe on the other side available. Target tool can be accurately positioned and intersected within a range of 40m. The transmitter module is compatible with ParaTrack steering tool and APS probe. Rotating Magnet Ranging System is available from Smartdrill, and RM sub with various magnetic moment can be customized.
+
+Advantages:
+⚫ Compared to RMRS, it is independent of limitations from drill bit RPM and position. Better performance when drilling in soft formation without mud motor.
+⚫ Intersection can be done at horizontal and curve sections.
+⚫ Transmitter module can be installed at BHA at 
+either side. Wells can be shifted whenever required.
+⚫ Only one HDD rig can be used to do intersect under emergent condition.

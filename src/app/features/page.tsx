@@ -1,8 +1,13 @@
+"use client";
+
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { products, magneticGuidanceSystem } from "@/lib/products";
+import { useTranslation } from "react-i18next";
 
 export default function FeaturesPage() {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen bg-black text-white">
       <Header />
@@ -10,9 +15,9 @@ export default function FeaturesPage() {
         {/* Page Hero */}
         <section className="pt-32 pb-16 bg-gradient-to-b from-zinc-900 to-black">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">Product Features</h1>
+            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">{t('features.title')}</h1>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
-              Comprehensive magnetic guidance solutions for horizontal directional drilling
+              {t('features.subtitle')}
             </p>
           </div>
         </section>
@@ -21,8 +26,8 @@ export default function FeaturesPage() {
         <section className="py-16 bg-zinc-950">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-white mb-4">{magneticGuidanceSystem.title}</h2>
-              <p className="text-white/60 text-lg">{magneticGuidanceSystem.description}</p>
+              <h2 className="text-3xl font-bold text-white mb-4">{t('features.magneticSystem.title')}</h2>
+              <p className="text-white/60 text-lg">{t('features.magneticSystem.description')}</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {magneticGuidanceSystem.components.map((comp, index) => (
@@ -60,7 +65,7 @@ export default function FeaturesPage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                       <div>
                         <h4 className="text-white font-medium mb-2 text-sm uppercase tracking-wider text-blue-400">
-                          Specifications
+                          {t('features.specifications')}
                         </h4>
                         <ul className="space-y-2">
                           {product.specs.map((spec, i) => (
@@ -75,7 +80,7 @@ export default function FeaturesPage() {
                       </div>
                       <div>
                         <h4 className="text-white font-medium mb-2 text-sm uppercase tracking-wider text-blue-400">
-                          Key Benefits
+                          {t('features.keyBenefits')}
                         </h4>
                         <ul className="space-y-2">
                           {product.benefits.map((benefit, i) => (
@@ -101,7 +106,7 @@ export default function FeaturesPage() {
                     </div>
                     {product.specsImage && (
                       <div className="mt-4 bg-zinc-800 rounded-xl p-4">
-                        <p className="text-white/40 text-xs text-center mb-2">Specifications Diagram</p>
+                        <p className="text-white/40 text-xs text-center mb-2">{t('features.specsDiagram')}</p>
                         <div className="bg-zinc-700 rounded aspect-video flex items-center justify-center overflow-hidden">
                           <img
                             src={product.specsImage}

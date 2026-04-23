@@ -1,0 +1,5 @@
+SmartCross is a tracking software used for horizontal directional drilling, integrating the functions of 
+drilling trajectory design, underground data acquisition and processing, real-time display as well as 
+calculation of drill bit position, and surveying data management. It is featured in powerful data 
+processing and analysis as well as high visualization. It consists of several modules with a friendly 
+interface and intuitive operation.

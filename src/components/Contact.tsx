@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export function Contact() {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     company: "",
@@ -26,10 +28,9 @@ export function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">Get in Touch</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">{t('contact.getInTouch')}</h2>
             <p className="text-white/60 text-lg mb-8 leading-relaxed">
-              Interested in our magnetic guidance systems? Contact us for product information,
-              pricing, or to discuss your project requirements.
+              {t('contact.interestText')}
             </p>
             <div className="space-y-6">
               <div className="flex items-center gap-4">
@@ -39,7 +40,7 @@ export function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-white/40 text-sm">WhatsApp / Phone</div>
+                  <div className="text-white/40 text-sm">{t('contact.whatsapp')}</div>
                   <div className="text-white font-medium">+86 136 8768 1792</div>
                 </div>
               </div>
@@ -50,7 +51,7 @@ export function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-white/40 text-sm">Email</div>
+                  <div className="text-white/40 text-sm">{t('contact.emailLabel')}</div>
                   <div className="text-white font-medium">bimongl@gmail.com</div>
                 </div>
               </div>
@@ -62,19 +63,19 @@ export function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-white/40 text-sm">Address</div>
+                  <div className="text-white/40 text-sm">{t('contact.address')}</div>
                   <div className="text-white font-medium">Qingdao, Shandong, China</div>
                 </div>
               </div>
             </div>
           </div>
           <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
-            <h3 className="text-xl font-semibold text-white mb-6">Send Inquiry</h3>
+            <h3 className="text-xl font-semibold text-white mb-6">{t('contact.sendInquiry')}</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <input
                   type="text"
-                  placeholder="Your Name *"
+                  placeholder={t('contact.yourName')}
                   required
                   className="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-blue-500 transition-colors"
                   value={formData.name}
@@ -82,7 +83,7 @@ export function Contact() {
                 />
                 <input
                   type="text"
-                  placeholder="Company"
+                  placeholder={t('contact.companyName')}
                   className="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-blue-500 transition-colors"
                   value={formData.company}
                   onChange={(e) => setFormData({...formData, company: e.target.value})}
@@ -90,7 +91,7 @@ export function Contact() {
               </div>
               <input
                 type="text"
-                placeholder="Country"
+                placeholder={t('contact.country')}
                 className="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-blue-500 transition-colors"
                 value={formData.country}
                 onChange={(e) => setFormData({...formData, country: e.target.value})}
@@ -98,7 +99,7 @@ export function Contact() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <input
                   type="email"
-                  placeholder="Email *"
+                  placeholder={t('contact.emailAddress')}
                   required
                   className="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-blue-500 transition-colors"
                   value={formData.email}
@@ -106,14 +107,14 @@ export function Contact() {
                 />
                 <input
                   type="tel"
-                  placeholder="Phone / WhatsApp"
+                  placeholder={t('contact.phoneWhatsApp')}
                   className="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-blue-500 transition-colors"
                   value={formData.phone}
                   onChange={(e) => setFormData({...formData, phone: e.target.value})}
                 />
               </div>
               <textarea
-                placeholder="Your Message *"
+                placeholder={t('contact.yourMessage')}
                 required
                 rows={4}
                 className="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-blue-500 transition-colors resize-none"
@@ -124,7 +125,7 @@ export function Contact() {
                 type="submit"
                 className="w-full bg-blue-600 hover:bg-blue-500 text-white py-3 rounded-lg font-semibold transition-colors"
               >
-                Send Inquiry
+                {t('contact.sendInquiry')}
               </button>
             </form>
           </div>

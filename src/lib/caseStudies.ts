@@ -27,7 +27,19 @@ export const caseStudies: CaseStudy[] = [
       rigs: "DW/TXS 800T/480T",
       guidance: "SmartDrill BTS/Intersection"
     },
-    description: "Several overhead HV cables which brings high interference. Salt field is not available for surface coil. BTS was used all the way for tracking. Intersect area was 1800m from 800T rig and 1227m from 480T rig. Intersect was successfully done within 5m.",
+    description: `Project Overview:
+This 3,021m HDD crossing involved two large-scale rigs (800T and 480T) operating simultaneously for an intersect operation.
+
+Key Challenges:
+- Overhead HV cables creating high electromagnetic interference
+- Salt field terrain unsuitable for surface coil deployment
+- BTS tracking required throughout the entire operation
+
+Solution:
+BTS (Beacon Tracking System) was employed for continuous tracking. The intersect point was located 1,800m from the 800T rig and 1,227m from the 480T rig.
+
+Result:
+Successful intersect achieved within 5m tolerance.`,
     images: ["/images/case-studies/binzhou-port/4b5fbb35-eb34-4639-88ec-36cd262b75e4.png", "/images/case-studies/binzhou-port/c7f0feb8-799d-4865-a09a-7e9f6c63f075.png"]
   },
   {
@@ -40,7 +52,17 @@ export const caseStudies: CaseStudy[] = [
       formation: "Strongly-weathered granite",
       guidance: "SmartDrill BTS/Intersection"
     },
-    description: "Main HDD rig suffered mud motor failure, therefore, the other rig must drill into the main pilot hole. Accurate intersection must be achieved to avoid side track.",
+    description: `Challenge:
+The main HDD rig experienced mud motor failure during the project.
+
+Solution:
+The secondary rig was deployed to drill into the main pilot hole from the opposite direction.
+
+Requirement:
+Accurate intersection was critical to avoid the need for a side track, which would significantly increase project cost and timeline.
+
+Result:
+Precise intersection achieved, allowing the project to proceed without costly remediation.`,
     images: ["/images/case-studies/hutuo-river/54a5fab9-b531-474c-9bc2-2c723166a7a4.png", "/images/case-studies/hutuo-river/d26615f8-e4ed-4d04-b9b8-7fd464995b89.png"]
   },
   {
@@ -78,7 +100,19 @@ Despite these complexities, SmartDrill's technical team successfully executed th
       rigs: "Guden 1200-ton / Guden 135-ton",
       guidance: "SmartDrill BTS/Intersection"
     },
-    description: "The entry and exit points of this construction drive were both located in a gravel layer. After casing was installed for isolation, the pilot-hole encounter method was employed. Executing a pilot-hole encounter in rock geology places extremely high demands on the accuracy of the guidance and positioning system, as well as on the precision of drilling trajectory control. In particular, the entry angle at the encounter point is crucial for the smooth connection of the product pipe. Guided by surface-mounted magnetic targets, the deviation at the encounter point was within 0.5 meters.",
+    description: `Project Overview:
+This 1,176m crossing employed the pilot-hole encounter method using two rigs (1,200-ton and 135-ton) operating in gravel layer conditions.
+
+Technical Challenges:
+- Entry and exit points located in challenging gravel layer
+- Pilot-hole encounter in rock geology demands exceptional guidance accuracy
+- Precise entry angle control critical for product pipe connection
+
+Solution:
+After casing installation for isolation, the pilot-hole encounter method was employed. Surface-mounted magnetic targets provided continuous positioning guidance.
+
+Result:
+Deviation at the encounter point was maintained within 0.5 meters, ensuring successful pipe connection.`,
     images: ["/images/case-studies/west-east-gas-line3/9a2146bd-94af-4a6d-a139-e62a988a774f.png", "/images/case-studies/west-east-gas-line3/a9ecad36-babc-4ab5-b1b5-b37ecd76dda0.png"]
   },
   {
@@ -92,7 +126,29 @@ Despite these complexities, SmartDrill's technical team successfully executed th
       rigs: "Guden 600-ton / Xinrui 300-ton",
       guidance: "SmartDrill BTS/Intersection"
     },
-    description: "This crossing was conducted through the reservoir area of the Wujiang River at the Goupitan Hydropower Station. The vertical depth from the entry point to the lowest point of the crossing is 238 meters, with 217 meters from the river surface to the lowest point. The surface section spans 800 meters in width, flanked by mountainous terrain with a 200-meter elevation difference on both sides. The drilling passed through limestone, shale, and dolomitic limestone formations, encountering multiple karst caves and fractured zones along the trajectory. Complete mud recovery was unachievable throughout the entire process. Large-depth magnetic targets and AC circular coils were used for positioning guidance from both sides toward the encounter point. The final deviation at the encounter was 0.5 meters laterally and 0.9 meters vertically.",
+    description: `Project Overview:
+This HDD crossing was conducted through the reservoir area of the Wujiang River at the Goupitan Hydropower Station.
+
+Project Parameters:
+- Total crossing length: 2,143m
+- Vertical depth to lowest point: 238m (217m from river surface)
+- Surface section width: 800m
+- Flanked by mountainous terrain with 200m elevation difference
+
+Geological Conditions:
+- Limestone, shale, and dolomitic limestone formations
+- Multiple karst caves and fractured zones encountered
+- Complete mud recovery impossible throughout the process
+
+Solution:
+Large-depth magnetic targets and AC circular coils provided positioning guidance from both sides toward the encounter point.
+
+Guidance System:
+- SmartDrill BTS/Intersection
+- Dual rig operation (600-ton and 300-ton rigs)
+
+Result:
+Final deviation at encounter: 0.5m laterally and 0.9m vertically.`,
     images: ["/images/case-studies/meitan-wengan/440d8eb9-622b-48de-a3d4-607064dd9a19.png", "/images/case-studies/meitan-wengan/7c7677aa-87c3-46db-9ef0-74097defe6ff.png", "/images/case-studies/meitan-wengan/a540bc05-f2ef-499b-9505-19c8dcef1cb5.png", "/images/case-studies/meitan-wengan/b229c274-5b7b-473d-b609-59bacafe81bb.png", "/images/case-studies/meitan-wengan/bf6e53f1-dbfd-4d70-86ea-aadf5e92b921.png", "/images/case-studies/meitan-wengan/d322e061-244c-4b8b-871f-f83fb6380c10.png", "/images/case-studies/meitan-wengan/e50eab2d-57a6-4068-ae04-e5501ee2263b.png", "/images/case-studies/meitan-wengan/ff9a7b74-a8eb-4085-9eb9-01b36c027558.png"]
   },
   {
@@ -105,7 +161,19 @@ Despite these complexities, SmartDrill's technical team successfully executed th
       formation: "Sandstone",
       guidance: "SmartDrill BTS/Intersection"
     },
-    description: "The entry and exit points of this construction are both situated in a gravel layer. The initial guided drilling operation was unsuccessful. As a result, a new pilot hole had to be drilled from the central casing at the exit point and connected to the original drill string. This operation was a remedial pilot-hole encounter. Using two sets of SmartDrill guidance systems combined with a pilot-hole encounter system, a precise encounter was achieved according to the design, incorporating dual deflection sections in both the horizontal and vertical planes.",
+    description: `Initial Attempt:
+The original guided drilling operation was unsuccessful due to challenging gravel layer conditions at both entry and exit points.
+
+Remediation Strategy:
+A new pilot hole was drilled from the central casing at the exit point, connecting to the original drill string — a remedial pilot-hole encounter operation.
+
+Technical Implementation:
+- Two sets of SmartDrill guidance systems deployed
+- Pilot-hole encounter system combined with steering tools
+- Dual deflection sections in both horizontal and vertical planes
+
+Result:
+Precise encounter achieved according to design specifications, successfully completing the crossing.`,
     images: ["/images/case-studies/qinghai-yellow-river/a404ef1c-8597-4cc0-bce0-152e9465e157.png", "/images/case-studies/qinghai-yellow-river/b3147aea-eeac-409c-bdab-ce47d6cf0d36.png"]
   },
   {
@@ -118,7 +186,23 @@ Despite these complexities, SmartDrill's technical team successfully executed th
       formation: "Sandstone",
       guidance: "SmartDrill BTS/Intersection"
     },
-    description: "The entry and exit points of this drilling operation were both located in a gravel layer. After installing casing for isolation, the pilot-hole encounter method was implemented. The guidance system consisted of two sets of SmartDrill steering tools combined with an encounter system. Due to the considerable depth of the designed trajectory, the encounter section was strategically positioned within the curved bend segment. Following the planned trajectory into the encounter point, a perfectly precise encounter was successfully achieved.",
+    description: `Project Overview:
+This 713m directional drilling project employed the pilot-hole encounter method in challenging sandstone geology.
+
+Site Conditions:
+- Entry and exit points located in gravel layer
+- Casing installed for isolation before drilling
+
+Technical Approach:
+- Two sets of SmartDrill steering tools combined with encounter system
+- Encounter section strategically positioned within the curved bend segment due to trajectory depth
+
+Guidance System:
+- SmartDrill BTS/Intersection
+- Continuous tracking throughout the operation
+
+Result:
+Perfectly precise encounter achieved, following the planned trajectory into the encounter point.`,
     images: ["/images/case-studies/qiupu-river/dc8b843d-c388-4121-8ee4-0b0f523ffadf.png", "/images/case-studies/qiupu-river/eb1e3022-30ef-4cd7-baa4-117c3f66fb72.png"]
   },
   {
@@ -131,7 +215,24 @@ Despite these complexities, SmartDrill's technical team successfully executed th
       formation: "Clay/silty sand",
       guidance: "SmartDrill BTS/Intersection"
     },
-    description: "Key challenges: 1) Complicated and challenging drilling trajectory; 2) Limited area for beacon setup; 3) Drilling under pond area where surface coil is not available; 4) Smart Intersect tool for accurate intersect, detected at a range of 40m.",
+    description: `Project Overview:
+This 2,718.8m crossing presented multiple technical challenges requiring SmartDrill's advanced guidance solutions.
+
+Key Challenges:
+- Complicated and challenging drilling trajectory
+- Limited area for beacon setup
+- Drilling under pond area where surface coil is unavailable
+- Maximum intersect detection range: 40m
+
+Solution:
+Smart Intersect tool deployed for accurate target intersection, enabling precise boring operations despite surface accessibility limitations.
+
+Equipment Deployed:
+- SmartDrill BTS/Intersection system
+- Clay/silty sand formation compatible tooling
+
+Result:
+Successful completion of this complex crossing with precise intersection achieved.`,
     images: ["/images/case-studies/sino-kuwait-b7/951b5eef-7175-471f-9223-c96a45800b4e.png", "/images/case-studies/sino-kuwait-b7/f24359fa-d0f6-4bec-970b-42e2a4f564f9.png"]
   },
   {
@@ -144,7 +245,17 @@ Despite these complexities, SmartDrill's technical team successfully executed th
       formation: "Strongly-weathered granite",
       guidance: "SmartDrill BTS/Intersection"
     },
-    description: "Main HDD rig suffered mud motor failure, therefore, the other rig must drill into the main pilot hole. Accurate intersection must be achieved to avoid side track.",
+    description: `Challenge:
+The main HDD rig experienced mud motor failure during the project.
+
+Solution:
+The secondary rig was deployed to drill into the main pilot hole from the opposite direction.
+
+Requirement:
+Accurate intersection was critical to avoid the need for a side track, which would significantly increase project cost and timeline.
+
+Result:
+Precise intersection achieved, allowing the project to proceed without costly remediation.`,
     images: ["/images/case-studies/yantai-port/32e32b43-77aa-4a85-89bd-f4b890e1e911.png", "/images/case-studies/yantai-port/8ad23d85-8456-45ab-af00-8a4b983d9428.png"]
   },
   {

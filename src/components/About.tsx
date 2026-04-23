@@ -1,4 +1,19 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
+
 export function About() {
+  const { t } = useTranslation();
+
+  const expertise = [
+    "Magnetic guidance technology for HDD drilling",
+    "Real-time bore path tracking and visualization",
+    "Soil condition adaptation and calibration",
+    "Professional training and on-site support",
+    "Custom solutions for challenging projects",
+    "Lifetime software updates and maintenance"
+  ];
+
   return (
     <section id="about" className="py-24 bg-zinc-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,15 +34,15 @@ export function About() {
             <div className="grid grid-cols-3 gap-6 mt-8">
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-500">100+</div>
-                <div className="text-white/50 text-sm mt-1">Projects Worldwide</div>
+                <div className="text-white/50 text-sm mt-1">{t('about.stats.projects')}</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-500">10+</div>
-                <div className="text-white/50 text-sm mt-1">Years Experience</div>
+                <div className="text-white/50 text-sm mt-1">{t('about.stats.years')}</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-500">24/7</div>
-                <div className="text-white/50 text-sm mt-1">Technical Support</div>
+                <div className="text-white/50 text-sm mt-1">{t('about.stats.support')}</div>
               </div>
             </div>
           </div>
@@ -49,12 +64,3 @@ export function About() {
     </section>
   );
 }
-
-const expertise = [
-  "Magnetic guidance technology for HDD drilling",
-  "Real-time bore path tracking and visualization",
-  "Soil condition adaptation and calibration",
-  "Professional training and on-site support",
-  "Custom solutions for challenging projects",
-  "Lifetime software updates and maintenance"
-];

@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__chrome-devtools__navigate_page",
+      "Bash(git add:*)",
+      "Bash(git checkout:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo:*)",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "Bash(find:*)",
+      "Bash(cp \"D:/0_Smartdrill/CASE/Binzhou Port – Xinyue Oil Pipeline Salt Field HDD Intersect \\(3,021m\\)\"/*.png public/images/case-studies/binzhou-port/)",
+      "Bash(cp \"D:/0_Smartdrill/CASE/HutuoRiver HDD Intersect \\(2,500m\\)\"/*.png public/images/case-studies/hutuo-river/)",
+      "Bash(cp \"D:/0_Smartdrill/CASE/Leshan Shengli Village Tunnel Drainage Hole Directional Drilling Project\"/*.png public/images/case-studies/leshan-shengli/)",
+      "Bash(cp \"D:/0_Smartdrill/CASE/Line 3 of West-East Gas Pipeline Tuanhe River Crossing Project\"/*.png public/images/case-studies/west-east-gas-line3/)",
+      "Bash(cp \"D:/0_Smartdrill/CASE/Meitan-Weng'an Natural Gas Pipeline Project Wujiang River HDD\"/*.png public/images/case-studies/meitan-wengan/)",
+      "Bash(grep -E \"^\\\\s+images: \\\\[$\" -A1 src/lib/caseStudies.ts)",
+      "WebFetch(domain:smartdrill-website.bimongl.workers.dev)",
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(npx next:*)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000/en)",
+      "Bash(npm uninstall:*)",
+      "Bash(curl -s http://localhost:3001)",
+      "Bash(curl -s http://localhost:3002)"
+    ]
+  }
+}

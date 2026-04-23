@@ -1,0 +1,1 @@
+The probe provides accurate survey information via state-of-the-art magnetometer and G-sensor, meanwhile, acts as a receiver for multiple magnetic sources, including AC guide wire and beacon tracking system. It is field proven with high durability, stability and reliability.

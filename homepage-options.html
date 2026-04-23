@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartDrill 首页方案对比</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #0a0a0a; color: #fff; min-height: 100vh; }
+
+    header {
+      background: #111;
+      padding: 20px 40px;
+      border-bottom: 1px solid #333;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    header h1 { font-size: 20px; font-weight: 600; }
+    header span { color: #888; font-size: 14px; }
+
+    .intro {
+      text-align: center;
+      padding: 60px 20px 40px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .intro h2 { font-size: 28px; margin-bottom: 16px; color: #fff; }
+    .intro p { color: #888; font-size: 16px; line-height: 1.6; }
+
+    .options {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      padding: 40px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .option {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: border-color 0.3s;
+    }
+    .option:hover { border-color: #444; }
+    .option.selected { border-color: #3b82f6; }
+
+    .preview {
+      background: #0a0a0a;
+      height: 380px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .option-label {
+      padding: 16px 20px;
+      border-top: 1px solid #222;
+    }
+    .option-label h3 { font-size: 16px; margin-bottom: 6px; }
+    .option-label p { font-size: 13px; color: #666; line-height: 1.5; }
+
+    /* ---------- A: Grid Gallery ---------- */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      padding: 16px;
+      width: 100%;
+    }
+    .gallery-grid .img-placeholder {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 6px;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: #555;
+    }
+    .gallery-grid .img-placeholder:nth-child(1) { grid-column: span 2; height: 90px; }
+
+    /* ---------- B: Carousel ---------- */
+    .carousel {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+    .carousel .main-img {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .carousel .main-img .big-placeholder {
+      width: 70%;
+      height: 200px;
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: #555;
+    }
+    .carousel .dots {
+      position: absolute;
+      bottom: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+    .carousel .dots span {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #333;
+    }
+    .carousel .dots span.active { background: #3b82f6; }
+
+    /* ---------- C: Full-screen Hero ---------- */
+    .hero-full {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #0f1117 0%, #1a2035 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      position: relative;
+    }
+    .hero-full .big-img-placeholder {
+      width: 80%;
+      height: 180px;
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: #555;
+    }
+    .hero-full .tagline {
+      font-size: 14px;
+      color: #ccc;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    /* ---------- Nav simulation (all options) ---------- */
+    .fake-nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 48px;
+      background: rgba(0,0,0,0.6);
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      gap: 20px;
+      font-size: 12px;
+      color: #777;
+      backdrop-filter: blur(4px);
+    }
+    .fake-nav .logo { color: #fff; font-weight: 600; margin-right: 10px; }
+    .fake-nav span { cursor: pointer; }
+    .fake-nav span:hover { color: #fff; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SmartDrill</h1>
+  <span>首页产品展示方案对比</span>
+</header>
+
+<div class="intro">
+  <h2>三种首页展示方案</h2>
+  <p>假设产品图片数量为 4 张，分别用不同布局呈现。灰色框代表图片占位区域。</p>
+</div>
+
+<div class="options">
+
+  <!-- A: Grid Gallery -->
+  <div class="option">
+    <div class="preview">
+      <div class="fake-nav">
+        <span class="logo">SmartDrill</span>
+        <span>Home</span><span>Features</span><span>Case Studies</span><span>About</span><span>Contact</span>
+      </div>
+      <div class="gallery-grid">
+        <div class="img-placeholder">产品主图</div>
+        <div class="img-placeholder">细节图</div>
+        <div class="img-placeholder">细节图</div>
+        <div class="img-placeholder">细节图</div>
+        <div class="img-placeholder">细节图</div>
+      </div>
+    </div>
+    <div class="option-label">
+      <h3>A — 图片网格 Gallery</h3>
+      <p>多张产品图以网格排列，视觉丰富，适合产品线较多的场景。占用空间中等。</p>
+    </div>
+  </div>
+
+  <!-- B: Carousel -->
+  <div class="option">
+    <div class="preview">
+      <div class="fake-nav">
+        <span class="logo">SmartDrill</span>
+        <span>Home</span><span>Features</span><span>Case Studies</span><span>About</span><span>Contact</span>
+      </div>
+      <div class="carousel">
+        <div class="main-img">
+          <div class="big-placeholder">当前展示的产品图片</div>
+        </div>
+        <div class="dots">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="option-label">
+      <h3>B — 幻灯片轮播 Carousel</h3>
+      <p>多张图片自动/手动切换，节省垂直空间，适合产品数量不多但要突出展示。</p>
+    </div>
+  </div>
+
+  <!-- C: Full-screen Hero -->
+  <div class="option">
+    <div class="preview">
+      <div class="fake-nav">
+        <span class="logo">SmartDrill</span>
+        <span>Home</span><span>Features</span><span>Case Studies</span><span>About</span><span>Contact</span>
+      </div>
+      <div class="hero-full">
+        <div class="big-img-placeholder">全屏产品主图</div>
+        <div class="tagline">Precision · Innovation · Reliability</div>
+      </div>
+    </div>
+    <div class="option-label">
+      <h3>C — 全屏 Hero 背景</h3>
+      <p>大气简洁，一图占满视野，配标语。适合主打一两款核心产品的公司。</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

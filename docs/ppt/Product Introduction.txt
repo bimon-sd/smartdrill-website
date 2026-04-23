@@ -1,0 +1,5 @@
+Magnetic guidance system consists of four parts:
+ ①Laptop: installed with guidance software
+ ②Interface unit: to communicate with probe and fulfill operation in combination with laptop.
+ ③Magnetic sources: surface coil or beacon, powered by AC supplies, generating magnetic field for tracking.
+ ④BHA: consists of top/bottom centralizers, wet connect, probe, spacer bar and stinger.
