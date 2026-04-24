@@ -1,0 +1,216 @@
+[
+  {
+    "fileName": "01-Underground Equipment Connection.mp4",
+    "title": "SmartDrill Underground Equipment Connection",
+    "description": "Step-by-step guide to connecting SmartDrill underground equipment components. Learn how to properly set up and connect the magnetic guidance system components for directional drilling operations.",
+    "tags": [
+      "SmartDrill",
+      "directional drilling",
+      "underground equipment",
+      "magnetic guidance"
+    ],
+    "youtubeId": "NpR1pvV-9lQ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=NpR1pvV-9lQ"
+  },
+  {
+    "fileName": "02-Ground Equipment Connection.mp4",
+    "title": "SmartDrill Ground Equipment Setup",
+    "description": "Quick overview of surface equipment installation for the SmartDrill magnetic guidance system. Covering ground station setup and antenna connections.",
+    "tags": [
+      "SmartDrill",
+      "directional drilling",
+      "ground equipment",
+      "surface setup"
+    ],
+    "youtubeId": "UUIbmOi5wGY",
+    "youtubeUrl": "https://www.youtube.com/watch?v=UUIbmOi5wGY"
+  },
+  {
+    "fileName": "03-Software Work Interface.mp4",
+    "title": "SmartDrill Software Interface Guide",
+    "description": "Navigate the SmartCross software interface with ease. Learn about real-time tracking, data visualization, and system configuration features.",
+    "tags": [
+      "SmartDrill",
+      "SmartCross",
+      "software interface",
+      "directional drilling"
+    ],
+    "youtubeId": "KVI2BCrxJ6M",
+    "youtubeUrl": "https://www.youtube.com/watch?v=KVI2BCrxJ6M"
+  },
+  {
+    "fileName": "04-Data Acquisition.mp4",
+    "title": "SmartDrill Data Acquisition Tutorial",
+    "description": "Learn how to acquire and interpret tracking data with the SmartDrill system. Master the techniques for accurate bore path monitoring.",
+    "tags": [
+      "SmartDrill",
+      "data acquisition",
+      "tracking",
+      "directional drilling"
+    ],
+    "youtubeId": "yxG-5cGmspE",
+    "youtubeUrl": "https://www.youtube.com/watch?v=yxG-5cGmspE"
+  },
+  {
+    "fileName": "05-Key Concepts.mp4",
+    "title": "SmartDrill Key Concepts Explained",
+    "description": "Understanding magnetic guidance fundamentals for directional drilling. Essential concepts for operators to master the SmartDrill system.",
+    "tags": [
+      "SmartDrill",
+      "magnetic guidance",
+      "key concepts",
+      "directional drilling"
+    ],
+    "youtubeId": "WuWRUNGRdGM",
+    "youtubeUrl": "https://www.youtube.com/watch?v=WuWRUNGRdGM"
+  },
+  {
+    "fileName": "06-the Secondary Driller’s Panel.mp4",
+    "title": "SmartDrill Secondary Driller Panel",
+    "description": "Guide to using the secondary driller panel for SmartDrill operations. Learn about monitoring and control features for assist drilling.",
+    "tags": [
+      "SmartDrill",
+      "secondary driller",
+      "control panel",
+      "directional drilling"
+    ],
+    "youtubeId": "",
+    "youtubeUrl": ""
+  },
+  {
+    "fileName": "BTS signal Analysis.mp4",
+    "title": "SmartDrill BTS Signal Analysis",
+    "description": "Learn how to analyze beacon tracking system signals for accurate directional drilling. Signal processing and interpretation techniques.",
+    "tags": [
+      "SmartDrill",
+      "BTS",
+      "signal analysis",
+      "beacon tracking"
+    ],
+    "youtubeId": "usSdjOQve2g",
+    "youtubeUrl": "https://www.youtube.com/watch?v=usSdjOQve2g"
+  },
+  {
+    "fileName": "Beacon Trackers.mp4",
+    "title": "SmartDrill Beacon Trackers Tutorial",
+    "description": "Comprehensive guide to using beacon trackers in the SmartDrill magnetic guidance system. Setup, calibration, and operation techniques.",
+    "tags": [
+      "SmartDrill",
+      "beacon tracker",
+      "magnetic guidance",
+      "directional drilling"
+    ],
+    "youtubeId": "ciaDfpXka0E",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ciaDfpXka0E"
+  },
+  {
+    "fileName": "File.mp4",
+    "title": "SmartDrill File Management",
+    "description": "Learn how to manage project files and data in SmartDrill software. Import, export, and organize drilling data effectively.",
+    "tags": [
+      "SmartDrill",
+      "file management",
+      "data management"
+    ],
+    "youtubeId": "4Eb4LrU82hs",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4Eb4LrU82hs"
+  },
+  {
+    "fileName": "Plan Data.mp4",
+    "title": "SmartDrill Plan Data Workflow",
+    "description": "Efficient workflow for project planning and execution using SmartDrill. Create and manage drilling plans with precision.",
+    "tags": [
+      "SmartDrill",
+      "plan data",
+      "project planning",
+      "directional drilling"
+    ],
+    "youtubeId": "RQIyn3gTAdI",
+    "youtubeUrl": "https://www.youtube.com/watch?v=RQIyn3gTAdI"
+  },
+  {
+    "fileName": "Survey data.mp4",
+    "title": "SmartDrill Survey Data Processing",
+    "description": "Learn how to process and analyze survey data for directional drilling projects. Survey data collection and interpretation guide.",
+    "tags": [
+      "SmartDrill",
+      "survey data",
+      "data processing",
+      "directional drilling"
+    ],
+    "youtubeId": "TRUbiH87FYc",
+    "youtubeUrl": "https://www.youtube.com/watch?v=TRUbiH87FYc"
+  },
+  {
+    "fileName": "beacon measurement①-.mp4",
+    "title": "SmartDrill Beacon Measurement Part 1",
+    "description": "Beacon measurement techniques for the SmartDrill magnetic guidance system. Part 1 of the measurement series.",
+    "tags": [
+      "SmartDrill",
+      "beacon measurement",
+      "magnetic guidance"
+    ],
+    "youtubeId": "",
+    "youtubeUrl": ""
+  },
+  {
+    "fileName": "beacon measurement②-.mp4",
+    "title": "SmartDrill Beacon Measurement Part 2",
+    "description": "Beacon measurement techniques continued. Part 2 of the measurement series.",
+    "tags": [
+      "SmartDrill",
+      "beacon measurement",
+      "magnetic guidance"
+    ],
+    "youtubeId": "",
+    "youtubeUrl": ""
+  },
+  {
+    "fileName": "beacon measurement③-.mp4",
+    "title": "SmartDrill Beacon Measurement Part 3",
+    "description": "Advanced beacon measurement techniques. Part 3 of the measurement series.",
+    "tags": [
+      "SmartDrill",
+      "beacon measurement",
+      "magnetic guidance"
+    ],
+    "youtubeId": "",
+    "youtubeUrl": ""
+  },
+  {
+    "fileName": "beacon measurement④-.mp4",
+    "title": "SmartDrill Beacon Measurement Part 4",
+    "description": "Expert-level beacon measurement and calibration. Part 4 of the measurement series.",
+    "tags": [
+      "SmartDrill",
+      "beacon measurement",
+      "magnetic guidance"
+    ],
+    "youtubeId": "",
+    "youtubeUrl": ""
+  },
+  {
+    "fileName": "pressure vs. time.mp4",
+    "title": "SmartDrill Pressure vs Time Analysis",
+    "description": "Learn to interpret pressure data over time for drilling operations. Real-time monitoring of drilling parameters.",
+    "tags": [
+      "SmartDrill",
+      "pressure monitoring",
+      "directional drilling"
+    ],
+    "youtubeId": "",
+    "youtubeUrl": ""
+  },
+  {
+    "fileName": "settings.mp4",
+    "title": "SmartDrill System Settings",
+    "description": "Complete guide to SmartDrill system configuration and settings. Optimize your drilling system for maximum performance.",
+    "tags": [
+      "SmartDrill",
+      "settings",
+      "system configuration"
+    ],
+    "youtubeId": "",
+    "youtubeUrl": ""
+  }
+]

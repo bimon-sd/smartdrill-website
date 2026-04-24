@@ -3,39 +3,16 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { useTranslation } from "react-i18next";
+import uploadedVideos from "@/lib/uploaded_videos.json";
 
-const videos = [
-  {
-    titleKey: "videos.undergroundEquipment",
-    duration: "4:05",
-    description: "Step-by-step guide to connecting underground equipment components"
-  },
-  {
-    titleKey: "videos.groundEquipment",
-    duration: "1:12",
-    description: "Quick overview of surface equipment installation"
-  },
-  {
-    titleKey: "videos.softwareInterface",
-    duration: "2:33",
-    description: "Navigate SmartCross software interface with ease"
-  },
-  {
-    titleKey: "videos.dataAcquisition",
-    duration: "2:42",
-    description: "Learn how to acquire and interpret tracking data"
-  },
-  {
-    titleKey: "videos.keyConcepts",
-    duration: "2:31",
-    description: "Understanding magnetic guidance fundamentals"
-  },
-  {
-    titleKey: "videos.planWorkflow",
-    duration: "2:46",
-    description: "Efficient workflow for project planning and execution"
-  }
-];
+const videos = uploadedVideos.map((v) => ({
+  titleKey: v.title,
+  duration: "",
+  description: v.description,
+  youtubeId: v.youtubeId,
+  youtubeUrl: v.youtubeUrl,
+  fileName: v.fileName,
+}));
 
 export default function VideosPage() {
   const { t } = useTranslation();
@@ -63,18 +40,42 @@ export default function VideosPage() {
                   key={index}
                   className="bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-800 hover:border-blue-500/50 transition-all group"
                 >
-                  <div className="aspect-video bg-zinc-800 flex items-center justify-center relative">
-                    <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-all" />
-                    <svg className="w-16 h-16 text-white/80 group-hover:text-white transition-colors relative z-10" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                    <span className="absolute bottom-2 right-2 bg-black/70 px-2 py-1 rounded text-xs text-white/80">
-                      {video.duration}
-                    </span>
-                  </div>
+                  {video.youtubeId ? (
+                    <div className="aspect-video bg-zinc-800">
+                      <iframe
+                        className="w-full h-full"
+                        src={`https://www.youtube.com/embed/${video.youtubeId}`}
+                        title={video.titleKey}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
+                  ) : (
+                    <div className="aspect-video bg-zinc-800 flex items-center justify-center relative">
+                      <svg className="w-16 h-16 text-white/40" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                      <span className="absolute bottom-2 left-2 bg-black/70 px-2 py-1 rounded text-xs text-white/60">
+                        Coming Soon
+                      </span>
+                    </div>
+                  )}
                   <div className="p-4">
-                    <h3 className="text-white font-medium mb-1">{t(video.titleKey)}</h3>
+                    <h3 className="text-white font-medium mb-1">{video.titleKey}</h3>
                     <p className="text-white/50 text-sm">{video.description}</p>
+                    {video.youtubeUrl && (
+                      <a
+                        href={video.youtubeUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 mt-2 text-blue-400 hover:text-blue-300 text-sm"
+                      >
+                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                        </svg>
+                        Watch on YouTube
+                      </a>
+                    )}
                   </div>
                 </div>
               ))}
@@ -89,12 +90,13 @@ export default function VideosPage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="D:\\产品视频\\英文视频\\完整英文视频"
+                    href="https://www.youtube.com/playlist"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-lg font-semibold transition-all inline-flex items-center justify-center gap-2"
                   >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
                     </svg>
                     Watch Full Video
                   </a>
