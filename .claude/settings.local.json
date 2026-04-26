@@ -25,7 +25,12 @@
       "Bash(curl -s http://localhost:3000/en)",
       "Bash(npm uninstall:*)",
       "Bash(curl -s http://localhost:3001)",
-      "Bash(curl -s http://localhost:3002)"
+      "Bash(curl -s http://localhost:3002)",
+      "Bash(curl -s https://api.github.com/repos/bimon-sd/smartdrill-website/contents/scripts)",
+      "Bash(curl -s \"https://api.github.com/repos/bimon-sd/smartdrill-website/git/trees/2657a25\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/bimon-sd/smartdrill-website/2657a25/tsconfig.json\")",
+      "Bash(npx playwright:*)",
+      "Bash(node -e ':*)"
     ]
   }
 }
