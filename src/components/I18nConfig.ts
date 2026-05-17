@@ -56,7 +56,7 @@ i18n
       escapeValue: false,
     },
     detection: {
-      order: ['localStorage', 'navigator'],
+      order: ['queryString', 'localStorage', 'navigator'],
       caches: ['localStorage'],
     },
   });

@@ -20,7 +20,14 @@ export function LanguageSelector() {
   }, []);
 
   const handleLanguageChange = (langCode: string) => {
+    // Change language
     i18n.changeLanguage(langCode);
+    // Save to localStorage for persistence
+    localStorage.setItem('i18nextLng', langCode);
+    // Update URL and reload to ensure full translation
+    const url = new URL(window.location.href);
+    url.searchParams.set('lang', langCode);
+    window.location.href = url.toString();
     setIsOpen(false);
   };
 
