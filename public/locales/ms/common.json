@@ -1,142 +1,162 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "videos": "Videos",
-    "caseStudies": "Case Studies",
-    "about": "About",
-    "contact": "Contact",
-    "getQuote": "Get Quote"
+    "home": "Laman Utama",
+    "products": "Produk",
+    "videos": "Video",
+    "caseStudies": "Kajian Kes",
+    "about": "Tentang Kami",
+    "contact": "Hubungi Kami",
+    "getQuote": "Minta Sebut Harga"
   },
   "home": {
     "hero": {
-      "title": "Precision HDD Intersection",
-      "subtitle": "Magnetic Guidance System",
-      "description": "SmartDrill provides real-time magnetic tracking for horizontal directional drilling, enabling precise pipeline installations across challenging terrains worldwide.",
-      "exploreProducts": "Explore Products",
-      "viewCaseStudies": "View Case Studies"
+      "title": "Persimpangan HDD Präsi",
+      "subtitle": "Sistem Panduan Magnetik",
+      "description": "SmartDrill menyediakan pelacakan magnetik masa nyata untuk penggerudian berarah mendatar, membolehkan pemasangan paip yang tepat di medan yang mencabar di seluruh dunia.",
+      "exploreProducts": "Terokai Produk",
+      "viewCaseStudies": "Lihat Kajian Kes"
     },
     "systemDelivered": {
-      "title": "Complete System Delivered",
-      "subtitle": "Full System · Ready to Deploy · 2-Crate Export Packaging",
-      "crate1": "Crate 1 - Main Equipment",
-      "crate2": "Crate 2 - Accessories"
+      "title": "Sistem Lengkap Dihantar",
+      "subtitle": "Sistem Lengkap · Siap untuk Deploy · Pembungkusan Eksport 2 Kotak",
+      "crate1": "Kotak 1 - Peralatan Utama",
+      "crate2": "Kotak 2 - Aksesori"
     },
     "featuredProjects": {
-      "title": "Featured Projects",
-      "subtitle": "Real-world HDD projects completed with SmartDrill guidance systems",
-      "viewAll": "View All Case Studies"
+      "title": "Projek Pilihan",
+      "subtitle": "Projek HDD sebenar yang disiapkan dengan sistem panduan SmartDrill",
+      "viewAll": "Lihat Semua Kajian Kes"
     },
     "whyChoose": {
-      "title": "Why Choose SmartDrill?",
-      "subtitle": "Trusted by HDD contractors worldwide for precision, reliability, and performance",
+      "title": "Mengapa Memilih SmartDrill?",
+      "subtitle": "Dipercayai oleh kontraktor HDD di seluruh dunia untuk ketepatan, kebolehpercayaan dan prestasi",
       "items": {
-        "realTime": "Real-Time Tracking",
-        "realTimeDesc": "Continuous magnetic field monitoring provides instant position updates",
-        "highPrecision": "High Precision",
-        "highPrecisionDesc": "Millimeter-level accuracy in challenging soil conditions",
-        "easyOperation": "Easy Operation",
-        "easyOperationDesc": "Intuitive software interface reduces learning curve",
-        "allWeather": "All-Weather",
-        "allWeatherDesc": "Reliable operation in various environmental conditions",
-        "support": "Comprehensive Support",
-        "supportDesc": "Technical training and lifetime software updates",
-        "costEffective": "Cost Effective",
-        "costEffectiveDesc": "Competitive pricing with no hidden costs"
+        "realTime": "Pelacakan Masa Nyata",
+        "realTimeDesc": "Pemantauan medan magnet berterusan memberikan kemas kini posisi segera",
+        "highPrecision": "Ketepatan Tinggi",
+        "highPrecisionDesc": "Ketepatan tahap milimeter dalam keadaan tanah yang mencabar",
+        "easyOperation": "Pengendalian Mudah",
+        "easyOperationDesc": "antara muka perisian intuitif mengurangkan lengkung pembelajaran",
+        "allWeather": "Semua Cuaca",
+        "allWeatherDesc": "Operasi yang boleh dipercayai dalam pelbagai keadaan persekitaran",
+        "support": "Sokongan Komprehensif",
+        "supportDesc": "Latihan teknikal dan kemas kini perisian seumur hidup",
+        "costEffective": "Kos Berkesan",
+        "costEffectiveDesc": "Harga kompetitif tanpa kos tersembunyi"
       },
-      "viewAllProducts": "View All Products"
+      "viewAllProducts": "Lihat Semua Produk"
     },
     "videos": {
-      "title": "Product Videos",
-      "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-      "viewAll": "View All Videos"
+      "title": "Video Produk",
+      "subtitle": "Tonton tutorial komprehensif tentang persediaan dan operasi sistem",
+      "viewAll": "Lihat Semua Video"
     }
   },
   "features": {
-    "title": "Product Features",
-    "subtitle": "Comprehensive magnetic guidance solutions for horizontal directional drilling",
+    "title": "Ciri-ciri Produk",
+    "subtitle": "Penyelesaian panduan magnetik komprehensif untuk penggerudian berarah mendatar",
     "magneticSystem": {
-      "title": "Magnetic Guidance System",
-      "subtitle": "Four Essential Components",
-      "description": "Magnetic guidance system consists of four parts:"
+      "title": "Sistem Panduan Magnetik",
+      "subtitle": "Empat Komponen Utama",
+      "description": "Sistem panduan magnetik terdiri daripada empat bahagian:"
     },
-    "specifications": "Specifications",
-    "keyBenefits": "Key Benefits",
-    "specsDiagram": "Specifications Diagram"
+    "specifications": "Spesifikasi",
+    "keyBenefits": "Faedah Utama",
+    "specsDiagram": "Carta Spesifikasi"
   },
   "caseStudies": {
-    "title": "Case Studies",
-    "subtitle": "Real-world projects demonstrating SmartDrill precision guidance solutions",
+    "title": "Kajian Kes",
+    "subtitle": "Projek sebenar yang menunjukkan penyelesaian panduan tepat SmartDrill",
     "stats": {
-      "projects": "Projects Completed",
-      "longest": "Longest Crossing",
-      "countries": "Countries",
-      "accuracy": "Encounter Accuracy"
+      "projects": "Projek Siap",
+      "longest": "Persimpangan Terpanjang",
+      "countries": "Negara",
+      "accuracy": "Ketepatan Pertemuan"
     },
-    "projectDescription": "Project Description",
-    "projectGallery": "Project Gallery",
-    "projectImages": "Project Images",
-    "previousProject": "Previous Project",
-    "nextProject": "Next Project",
-    "backToCaseStudies": "Back to Case Studies",
+    "projectDescription": "Penerangan Projek",
+    "projectGallery": "Galeri Projek",
+    "projectImages": "Imej Projek",
+    "previousProject": "Projek Sebelumnya",
+    "nextProject": "Projek seterusnya",
+    "backToCaseStudies": "Kembali kepada Kajian Kes",
     "stats": {
-      "length": "Length",
-      "pipeSpec": "Pipe Spec",
-      "elevation": "Elevation",
-      "formation": "Formation",
-      "rigs": "HDD Rigs",
-      "guidance": "Guidance"
+      "length": "Panjang",
+      "pipeSpec": "Spesifikasi Paip",
+      "elevation": "Ketinggian",
+      "formation": "Formasi",
+      "rigs": "Rigid HDD",
+      "guidance": "Panduan"
     }
   },
   "about": {
-    "title": "About SmartDrill",
-    "subtitle": "Leading provider of precision magnetic guidance systems for HDD drilling",
-    "productRange": "Product Range",
-    "applications": "Applications",
+    "title": "Tentang SmartDrill",
+    "subtitle": "Pembekal terkemuka sistem panduan magnetik tepat untuk penggerudian HDD",
+    "productRange": "Julat Produk",
+    "applications": "Aplikasi",
     "appItems": {
-      "river": "River crossings",
-      "mountain": "Mountain crossings",
-      "highway": "Highway/railway crossings",
-      "urban": "Urban utility installations",
-      "oilGas": "Oil & gas pipeline installation",
-      "water": "Water supply systems",
-      "telecom": "Telecommunications conduit"
+      "river": "Persimpangan sungai",
+      "mountain": "Persimpangan gunung",
+      "highway": "Persimpangan lebuhraya/kereta api",
+      "urban": "Pemasangan utiliti Bandar",
+      "oilGas": "Pemasangan talian minyak dan gas",
+      "water": "Sistem bekalan air",
+      "telecom": "Talian telekomunikasi"
+    },
+    "stats": {
+      "projects": "Projek Seluruh Dunia",
+      "years": "Tahun Pengalaman",
+      "support": "Sokongan Teknikal"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for inquiries, quotes, or technical support",
-    "name": "Name",
-    "email": "Email",
-    "company": "Company",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully!",
-    "error": "Failed to send message. Please try again."
+    "title": "Hubungi Kami",
+    "subtitle": "Hubungi pasukan kami untuk pertanyaan, sebut harga atau sokongan teknikal",
+    "name": "Nama",
+    "email": "E-mel",
+    "company": "Syarikat",
+    "message": "Mesej",
+    "send": "Hantar Mesej",
+    "sending": "Menghantar...",
+    "success": "Mesej berjaya dihantar!",
+    "error": "Gagal menghantar mesej. Sila cuba lagi.",
+    "getInTouch": "Hubungi Kami",
+    "interestText": "Berminat dengan sistem panduan magnetik kami? Hubungi kami untuk maklumat produk, harga atau untuk membincangkan keperluan projek anda.",
+    "whatsapp": "WhatsApp / Telefon",
+    "emailLabel": "E-mel",
+    "address": "Alamat",
+    "sendInquiry": "Hantar Pertanyaan",
+    "yourName": "Nama Anda *",
+    "companyName": "Syarikat",
+    "country": "Negara",
+    "emailAddress": "E-mel *",
+    "phoneWhatsApp": "Telefon / WhatsApp",
+    "yourMessage": "Mesej Anda *"
   },
   "videos": {
-    "title": "Product Videos",
-    "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-    "undergroundEquipment": "Underground Equipment Connection",
-    "groundEquipment": "Ground Equipment Setup",
-    "softwareInterface": "Software Interface Guide"
+    "title": "Video Produk",
+    "subtitle": "Tonton tutorial komprehensif tentang persediaan dan operasi sistem",
+    "undergroundEquipment": "Sambungan Peralatan Bawah Tanah",
+    "groundEquipment": "Persediaan Peralatan Tanah",
+    "softwareInterface": "Panduan antara muka Perisian",
+    "dataAcquisition": "Tutorial Perolehan Data",
+    "keyConcepts": "Konsep Utama Diterangkan",
+    "planWorkflow": "Aliran Kerja Data Pelan"
   },
   "footer": {
-    "tagline": "Precision HDD Magnetic Guidance System",
-    "products": "Products",
-    "company": "Company",
-    "resources": "Resources",
-    "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyright": "SmartDrill. All rights reserved."
+    "tagline": "Sistem Panduan Magnetik HDD Präsi",
+    "products": "Produk",
+    "company": "Syarikat",
+    "resources": "Sumber",
+    "contact": "Hubungi",
+    "privacy": "Dasar Privasi",
+    "terms": "Syarat Perkhidmatan",
+    "copyright": "SmartDrill. Hak cipta terpelihara."
   },
   "common": {
-    "learnMore": "Learn More",
-    "viewAll": "View All",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "retry": "Retry"
+    "learnMore": "Ketahui Lebih Lanjut",
+    "viewAll": "Lihat Semua",
+    "loading": "Memuatkan...",
+    "error": "Ralat berlaku",
+    "retry": "Cuba Lagi"
   }
 }

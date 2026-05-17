@@ -1,142 +1,162 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "videos": "Videos",
-    "caseStudies": "Case Studies",
-    "about": "About",
-    "contact": "Contact",
-    "getQuote": "Get Quote"
+    "home": "صفحه اصلی",
+    "products": "محصولات",
+    "videos": "ویدئوها",
+    "caseStudies": "مطالعات موردی",
+    "about": "درباره ما",
+    "contact": "تماس با ما",
+    "getQuote": "درخواست قیمت"
   },
   "home": {
     "hero": {
-      "title": "Precision HDD Intersection",
-      "subtitle": "Magnetic Guidance System",
-      "description": "SmartDrill provides real-time magnetic tracking for horizontal directional drilling, enabling precise pipeline installations across challenging terrains worldwide.",
-      "exploreProducts": "Explore Products",
-      "viewCaseStudies": "View Case Studies"
+      "title": "تقاطع HDD دقیق",
+      "subtitle": "سیستم هدایت مغناطیسی",
+      "description": "SmartDrill ردیابی مغناطیسی بلادرنگ برای حفاری جهت‌دار افقی فراهم می‌کند و امکان نصب دقیق لوله در زمین‌های دشوار در سراسر جهان را فراهم می‌کند.",
+      "exploreProducts": "بررسی محصولات",
+      "viewCaseStudies": "مشاهده مطالعات موردی"
     },
     "systemDelivered": {
-      "title": "Complete System Delivered",
-      "subtitle": "Full System · Ready to Deploy · 2-Crate Export Packaging",
-      "crate1": "Crate 1 - Main Equipment",
-      "crate2": "Crate 2 - Accessories"
+      "title": "سیستم کامل تحویل داده شد",
+      "subtitle": "سیستم کامل · آماده استقرار · بسته‌بندی صادراتی 2 جعبه",
+      "crate1": "جعبه 1 - تجهیزات اصلی",
+      "crate2": "جعبه 2 - لوازم جانبی"
     },
     "featuredProjects": {
-      "title": "Featured Projects",
-      "subtitle": "Real-world HDD projects completed with SmartDrill guidance systems",
-      "viewAll": "View All Case Studies"
+      "title": "پروژه‌های برجسته",
+      "subtitle": "پروژه‌های HDD واقعی تکمیل شده با سیستم‌های هدایت SmartDrill",
+      "viewAll": "مشاهده همه مطالعات موردی"
     },
     "whyChoose": {
-      "title": "Why Choose SmartDrill?",
-      "subtitle": "Trusted by HDD contractors worldwide for precision, reliability, and performance",
+      "title": "چرا SmartDrill را انتخاب کنیم؟",
+      "subtitle": "مورد اعتماد پیمانکاران HDD در سراسر جهان برای دقت، قابلیت اطمینان و عملکرد",
       "items": {
-        "realTime": "Real-Time Tracking",
-        "realTimeDesc": "Continuous magnetic field monitoring provides instant position updates",
-        "highPrecision": "High Precision",
-        "highPrecisionDesc": "Millimeter-level accuracy in challenging soil conditions",
-        "easyOperation": "Easy Operation",
-        "easyOperationDesc": "Intuitive software interface reduces learning curve",
-        "allWeather": "All-Weather",
-        "allWeatherDesc": "Reliable operation in various environmental conditions",
-        "support": "Comprehensive Support",
-        "supportDesc": "Technical training and lifetime software updates",
-        "costEffective": "Cost Effective",
-        "costEffectiveDesc": "Competitive pricing with no hidden costs"
+        "realTime": "ردیابی بلادرنگ",
+        "realTimeDesc": "نظارت مداوم بر میدان مغناطیسی به‌روزرسانی فوری موقعیت را فراهم می‌کند",
+        "highPrecision": "دقت بالا",
+        "highPrecisionDesc": "دقت میلی‌متری در شرایط خاک دشوار",
+        "easyOperation": "عملیات آسان",
+        "easyOperationDesc": "رابط نرم‌افزاری شهودی منحنی یادگیری را کاهش می‌دهد",
+        "allWeather": "همه آب و هوا",
+        "allWeatherDesc": "عملیات قابل اطمینان در شرایط محیطی مختلف",
+        "support": "پشتیبانی جامع",
+        "supportDesc": "آموزش فنی و به‌روزرسانی نرم‌افزار مادام‌العمر",
+        "costEffective": "اقتصادی",
+        "costEffectiveDesc": "قیمت رقابتی بدون هزینه‌های پنهان"
       },
-      "viewAllProducts": "View All Products"
+      "viewAllProducts": "مشاهده همه محصولات"
     },
     "videos": {
-      "title": "Product Videos",
-      "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-      "viewAll": "View All Videos"
+      "title": "ویدئوهای محصول",
+      "subtitle": "آموزش‌های جامع درباره راه‌اندازی و عملیات سیستم را تماشا کنید",
+      "viewAll": "مشاهده همه ویدئوها"
     }
   },
   "features": {
-    "title": "Product Features",
-    "subtitle": "Comprehensive magnetic guidance solutions for horizontal directional drilling",
+    "title": "ویژگی‌های محصول",
+    "subtitle": "راه‌حل‌های هدایت مغناطیسی جامع برای حفاری جهت‌دار افقی",
     "magneticSystem": {
-      "title": "Magnetic Guidance System",
-      "subtitle": "Four Essential Components",
-      "description": "Magnetic guidance system consists of four parts:"
+      "title": "سیستم هدایت مغناطیسی",
+      "subtitle": "چهار جزء اساسی",
+      "description": "سیستم هدایت مغناطیسی از چهار بخش تشکیل شده است:"
     },
-    "specifications": "Specifications",
-    "keyBenefits": "Key Benefits",
-    "specsDiagram": "Specifications Diagram"
+    "specifications": "مشخصات",
+    "keyBenefits": "مزایای کلیدی",
+    "specsDiagram": "نمودار مشخصات"
   },
   "caseStudies": {
-    "title": "Case Studies",
-    "subtitle": "Real-world projects demonstrating SmartDrill precision guidance solutions",
+    "title": "مطالعات موردی",
+    "subtitle": "پروژه‌های واقعی نشان‌دهنده راه‌حل‌های هدایت دقیق SmartDrill",
     "stats": {
-      "projects": "Projects Completed",
-      "longest": "Longest Crossing",
-      "countries": "Countries",
-      "accuracy": "Encounter Accuracy"
+      "projects": "پروژه‌های تکمیل شده",
+      "longest": "طولانی‌ترین تقاطع",
+      "countries": "کشورها",
+      "accuracy": "دقت تقاطع"
     },
-    "projectDescription": "Project Description",
-    "projectGallery": "Project Gallery",
-    "projectImages": "Project Images",
-    "previousProject": "Previous Project",
-    "nextProject": "Next Project",
-    "backToCaseStudies": "Back to Case Studies",
+    "projectDescription": "توضیحات پروژه",
+    "projectGallery": "گالری پروژه",
+    "projectImages": "تصاویر پروژه",
+    "previousProject": "پروژه قبلی",
+    "nextProject": "پروژه بعدی",
+    "backToCaseStudies": "بازگشت به مطالعات موردی",
     "stats": {
-      "length": "Length",
-      "pipeSpec": "Pipe Spec",
-      "elevation": "Elevation",
-      "formation": "Formation",
-      "rigs": "HDD Rigs",
-      "guidance": "Guidance"
+      "length": "طول",
+      "pipeSpec": "مشخصات لوله",
+      "elevation": "ارتفاع",
+      "formation": "سازند",
+      "rigs": "دکل‌های HDD",
+      "guidance": "هدایت"
     }
   },
   "about": {
-    "title": "About SmartDrill",
-    "subtitle": "Leading provider of precision magnetic guidance systems for HDD drilling",
-    "productRange": "Product Range",
-    "applications": "Applications",
+    "title": "درباره SmartDrill",
+    "subtitle": "تأمین‌کننده پیشرو سیستم‌های هدایت مغناطیسی دقیق برای حفاری HDD",
+    "productRange": "طیف محصولات",
+    "applications": "کاربردها",
     "appItems": {
-      "river": "River crossings",
-      "mountain": "Mountain crossings",
-      "highway": "Highway/railway crossings",
-      "urban": "Urban utility installations",
-      "oilGas": "Oil & gas pipeline installation",
-      "water": "Water supply systems",
-      "telecom": "Telecommunications conduit"
+      "river": "تقاطع‌های رودخانه",
+      "mountain": "تقاطع‌های کوهستانی",
+      "highway": "تقاطع‌های بزرگراه/راه‌آهن",
+      "urban": "تأسیسات شهری",
+      "oilGas": "نصب خطوط لوله نفت و گاز",
+      "water": "سیستم‌های تأمین آب",
+      "telecom": "مجرای مخابراتی"
+    },
+    "stats": {
+      "projects": "پروژه‌های جهانی",
+      "years": "سال تجربه",
+      "support": "پشتیبانی فنی"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for inquiries, quotes, or technical support",
-    "name": "Name",
-    "email": "Email",
-    "company": "Company",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully!",
-    "error": "Failed to send message. Please try again."
+    "title": "تماس با ما",
+    "subtitle": "با تیم ما برای سؤالات، قیمت‌گیری یا پشتیبانی فنی تماس بگیرید",
+    "name": "نام",
+    "email": "ایمیل",
+    "company": "شرکت",
+    "message": "پیام",
+    "send": "ارسال پیام",
+    "sending": "در حال ارسال...",
+    "success": "پیام با موفقیت ارسال شد!",
+    "error": "ارسال پیام ناموفق بود. لطفاً دوباره تلاش کنید.",
+    "getInTouch": "تماس بگیرید",
+    "interestText": "آیا به سیستم‌های هدایت مغناطیسی ما علاقه‌مندید؟ برای اطلاعات محصول، قیمت یا بحث در مورد نیازهای پروژه‌تان با ما تماس بگیرید.",
+    "whatsapp": "WhatsApp / تلفن",
+    "emailLabel": "ایمیل",
+    "address": "آدرس",
+    "sendInquiry": "ارسال درخواست",
+    "yourName": "نام شما *",
+    "companyName": "شرکت",
+    "country": "کشور",
+    "emailAddress": "ایمیل *",
+    "phoneWhatsApp": "تلفن / WhatsApp",
+    "yourMessage": "پیام شما *"
   },
   "videos": {
-    "title": "Product Videos",
-    "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-    "undergroundEquipment": "Underground Equipment Connection",
-    "groundEquipment": "Ground Equipment Setup",
-    "softwareInterface": "Software Interface Guide"
+    "title": "ویدئوهای محصول",
+    "subtitle": "آموزش‌های جامع درباره راه‌اندازی و عملیات سیستم را تماشا کنید",
+    "undergroundEquipment": "اتصال تجهیزات زیرزمینی",
+    "groundEquipment": "راه‌اندازی تجهیزات سطحی",
+    "softwareInterface": "راهنمای رابط نرم‌افزار",
+    "dataAcquisition": "آموزش جمع‌آوری داده",
+    "keyConcepts": "مفاهیم کلیدی توضیح داده شده",
+    "planWorkflow": "گردش کار داده برنامه"
   },
   "footer": {
-    "tagline": "Precision HDD Magnetic Guidance System",
-    "products": "Products",
-    "company": "Company",
-    "resources": "Resources",
-    "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyright": "SmartDrill. All rights reserved."
+    "tagline": "سیستم هدایت مغناطیسی HDD دقیق",
+    "products": "محصولات",
+    "company": "شرکت",
+    "resources": "منابع",
+    "contact": "تماس",
+    "privacy": "سیاست حریم خصوصی",
+    "terms": "شرایط خدمات",
+    "copyright": "SmartDrill. تمام حقوق محفوظ است."
   },
   "common": {
-    "learnMore": "Learn More",
-    "viewAll": "View All",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "retry": "Retry"
+    "learnMore": "بیشتر بدانید",
+    "viewAll": "مشاهده همه",
+    "loading": "در حال بارگذاری...",
+    "error": "خطایی رخ داد",
+    "retry": "تلاش مجدد"
   }
 }

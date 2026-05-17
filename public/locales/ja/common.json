@@ -1,142 +1,162 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "videos": "Videos",
-    "caseStudies": "Case Studies",
-    "about": "About",
-    "contact": "Contact",
-    "getQuote": "Get Quote"
+    "home": "ホーム",
+    "products": "製品",
+    "videos": "動画",
+    "caseStudies": "事例",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "getQuote": "見積もりを依頼"
   },
   "home": {
     "hero": {
-      "title": "Precision HDD Intersection",
-      "subtitle": "Magnetic Guidance System",
-      "description": "SmartDrill provides real-time magnetic tracking for horizontal directional drilling, enabling precise pipeline installations across challenging terrains worldwide.",
-      "exploreProducts": "Explore Products",
-      "viewCaseStudies": "View Case Studies"
+      "title": "精密HDD交差",
+      "subtitle": "磁気誘導システム",
+      "description": "SmartDrillは、水平定向掘削向けのリアルタイム磁気追跡を提供し、世界中の困難な地形での正確なパイプライン設置を実現します。",
+      "exploreProducts": "製品を探る",
+      "viewCaseStudies": "事例を見る"
     },
     "systemDelivered": {
-      "title": "Complete System Delivered",
-      "subtitle": "Full System · Ready to Deploy · 2-Crate Export Packaging",
-      "crate1": "Crate 1 - Main Equipment",
-      "crate2": "Crate 2 - Accessories"
+      "title": "完全なシステム納入",
+      "subtitle": "フルシステム · 導入準備完了 · 2クレート輸出パッケージ",
+      "crate1": "クレート1 - 主要設備",
+      "crate2": "クレート2 - アクセサリー"
     },
     "featuredProjects": {
-      "title": "Featured Projects",
-      "subtitle": "Real-world HDD projects completed with SmartDrill guidance systems",
-      "viewAll": "View All Case Studies"
+      "title": "注目のプロジェクト",
+      "subtitle": "SmartDrill誘導システムで完了した実際のHDDプロジェクト",
+      "viewAll": "すべての事例を見る"
     },
     "whyChoose": {
-      "title": "Why Choose SmartDrill?",
-      "subtitle": "Trusted by HDD contractors worldwide for precision, reliability, and performance",
+      "title": "SmartDrillを選ぶ理由",
+      "subtitle": "精密さ、信頼性、パフォーマンスにおいて世界中のHDD請負業者から信頼されています",
       "items": {
-        "realTime": "Real-Time Tracking",
-        "realTimeDesc": "Continuous magnetic field monitoring provides instant position updates",
-        "highPrecision": "High Precision",
-        "highPrecisionDesc": "Millimeter-level accuracy in challenging soil conditions",
-        "easyOperation": "Easy Operation",
-        "easyOperationDesc": "Intuitive software interface reduces learning curve",
-        "allWeather": "All-Weather",
-        "allWeatherDesc": "Reliable operation in various environmental conditions",
-        "support": "Comprehensive Support",
-        "supportDesc": "Technical training and lifetime software updates",
-        "costEffective": "Cost Effective",
-        "costEffectiveDesc": "Competitive pricing with no hidden costs"
+        "realTime": "リアルタイム追跡",
+        "realTimeDesc": "連続的な磁場監視により瞬時の位置更新を提供",
+        "highPrecision": "高精度",
+        "highPrecisionDesc": "困難な土壌条件下でのミリメートルレベルの精度",
+        "easyOperation": "簡単な操作",
+        "easyOperationDesc": "直感的なソフトウェアインターフェースにより学習曲線を軽減",
+        "allWeather": "全天候型",
+        "allWeatherDesc": "さまざまな環境条件下での信頼性の高い動作",
+        "support": "包括的なサポート",
+        "supportDesc": "技術トレーニングと生涯ソフトウェアアップデート",
+        "costEffective": "コスト効率",
+        "costEffectiveDesc": "隠れたコストのない競争力のある価格"
       },
-      "viewAllProducts": "View All Products"
+      "viewAllProducts": "すべての製品を見る"
     },
     "videos": {
-      "title": "Product Videos",
-      "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-      "viewAll": "View All Videos"
+      "title": "製品動画",
+      "subtitle": "システムの設定と操作に関する包括的なチュートリアルをご覧ください",
+      "viewAll": "すべての動画を見る"
     }
   },
   "features": {
-    "title": "Product Features",
-    "subtitle": "Comprehensive magnetic guidance solutions for horizontal directional drilling",
+    "title": "製品の機能",
+    "subtitle": "水平定向掘削のための包括的な磁気誘導ソリューション",
     "magneticSystem": {
-      "title": "Magnetic Guidance System",
-      "subtitle": "Four Essential Components",
-      "description": "Magnetic guidance system consists of four parts:"
+      "title": "磁気誘導システム",
+      "subtitle": "4つの重要なコンポーネント",
+      "description": "磁気誘導システムは4つの部分で構成されます："
     },
-    "specifications": "Specifications",
-    "keyBenefits": "Key Benefits",
-    "specsDiagram": "Specifications Diagram"
+    "specifications": "仕様",
+    "keyBenefits": "主な利点",
+    "specsDiagram": "仕様図"
   },
   "caseStudies": {
-    "title": "Case Studies",
-    "subtitle": "Real-world projects demonstrating SmartDrill precision guidance solutions",
+    "title": "事例",
+    "subtitle": "SmartDrill精密誘導ソリューションを示す実際のプロジェクト",
     "stats": {
-      "projects": "Projects Completed",
-      "longest": "Longest Crossing",
-      "countries": "Countries",
-      "accuracy": "Encounter Accuracy"
+      "projects": "完了したプロジェクト",
+      "longest": "最長交差",
+      "countries": "国",
+      "accuracy": "交差精度"
     },
-    "projectDescription": "Project Description",
-    "projectGallery": "Project Gallery",
-    "projectImages": "Project Images",
-    "previousProject": "Previous Project",
-    "nextProject": "Next Project",
-    "backToCaseStudies": "Back to Case Studies",
+    "projectDescription": "プロジェクトの説明",
+    "projectGallery": "プロジェクトギャラリー",
+    "projectImages": "プロジェクト画像",
+    "previousProject": "前のプロジェクト",
+    "nextProject": "次のプロジェクト",
+    "backToCaseStudies": "事例に戻る",
     "stats": {
-      "length": "Length",
-      "pipeSpec": "Pipe Spec",
-      "elevation": "Elevation",
-      "formation": "Formation",
-      "rigs": "HDD Rigs",
-      "guidance": "Guidance"
+      "length": "長さ",
+      "pipeSpec": "パイプ仕様",
+      "elevation": "標高",
+      "formation": "形成",
+      "rigs": "HDDリグ",
+      "guidance": "誘導"
     }
   },
   "about": {
-    "title": "About SmartDrill",
-    "subtitle": "Leading provider of precision magnetic guidance systems for HDD drilling",
-    "productRange": "Product Range",
-    "applications": "Applications",
+    "title": "SmartDrillについて",
+    "subtitle": "HDD掘削用精密磁気誘導システムの大手プロバイダー",
+    "productRange": "製品範囲",
+    "applications": "アプリケーション",
     "appItems": {
-      "river": "River crossings",
-      "mountain": "Mountain crossings",
-      "highway": "Highway/railway crossings",
-      "urban": "Urban utility installations",
-      "oilGas": "Oil & gas pipeline installation",
-      "water": "Water supply systems",
-      "telecom": "Telecommunications conduit"
+      "river": "河川穿越",
+      "mountain": "山地穿越",
+      "highway": "道路/鉄道穿越",
+      "urban": "都市公共事業設置",
+      "oilGas": "石油・ガスパイプライン設置",
+      "water": "給水システム",
+      "telecom": "通信导管"
+    },
+    "stats": {
+      "projects": "世界のプロジェクト",
+      "years": "年の経験",
+      "support": "技術サポート"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for inquiries, quotes, or technical support",
-    "name": "Name",
-    "email": "Email",
-    "company": "Company",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully!",
-    "error": "Failed to send message. Please try again."
+    "title": "お問い合わせ",
+    "subtitle": "お問い合わせ、見積もり、技術サポートについては、お問い合わせください",
+    "name": "名前",
+    "email": "メール",
+    "company": "会社",
+    "message": "メッセージ",
+    "send": "メッセージを送信",
+    "sending": "送信中...",
+    "success": "メッセージが正常に送信されました！",
+    "error": "メッセージの送信に失敗しました。もう一度お試しください。",
+    "getInTouch": "お問い合わせ",
+    "interestText": "磁気誘導システムに興味がありますか？製品情報、料金、またはプロジェクトの要件については、お問い合わせください。",
+    "whatsapp": "WhatsApp / 電話",
+    "emailLabel": "メール",
+    "address": "住所",
+    "sendInquiry": "問い合わせを送信",
+    "yourName": "お名前 *",
+    "companyName": "会社",
+    "country": "国",
+    "emailAddress": "メール *",
+    "phoneWhatsApp": "電話 / WhatsApp",
+    "yourMessage": "メッセージ *"
   },
   "videos": {
-    "title": "Product Videos",
-    "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-    "undergroundEquipment": "Underground Equipment Connection",
-    "groundEquipment": "Ground Equipment Setup",
-    "softwareInterface": "Software Interface Guide"
+    "title": "製品動画",
+    "subtitle": "システムの設定と操作に関する包括的なチュートリアルをご覧ください",
+    "undergroundEquipment": "地下設備接続",
+    "groundEquipment": "地上設備設定",
+    "softwareInterface": "ソフトウェアインターフェースガイド",
+    "dataAcquisition": "データ取得チュートリアル",
+    "keyConcepts": "主要な概念の説明",
+    "planWorkflow": "計画データワークフロー"
   },
   "footer": {
-    "tagline": "Precision HDD Magnetic Guidance System",
-    "products": "Products",
-    "company": "Company",
-    "resources": "Resources",
-    "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyright": "SmartDrill. All rights reserved."
+    "tagline": "精密HDD磁気誘導システム",
+    "products": "製品",
+    "company": "会社",
+    "resources": "リソース",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "SmartDrill。全著作権所有。"
   },
   "common": {
-    "learnMore": "Learn More",
-    "viewAll": "View All",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "retry": "Retry"
+    "learnMore": "詳細を見る",
+    "viewAll": "すべて表示",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行"
   }
 }

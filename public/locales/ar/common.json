@@ -1,142 +1,162 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "videos": "Videos",
-    "caseStudies": "Case Studies",
-    "about": "About",
-    "contact": "Contact",
-    "getQuote": "Get Quote"
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "videos": "الفيديوهات",
+    "caseStudies": "دراسات الحالة",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "getQuote": "طلب عرض سعر"
   },
   "home": {
     "hero": {
-      "title": "Precision HDD Intersection",
-      "subtitle": "Magnetic Guidance System",
-      "description": "SmartDrill provides real-time magnetic tracking for horizontal directional drilling, enabling precise pipeline installations across challenging terrains worldwide.",
-      "exploreProducts": "Explore Products",
-      "viewCaseStudies": "View Case Studies"
+      "title": "تقاطع HDD بدقة عالية",
+      "subtitle": "نظام التوجيه المغناطيسي",
+      "description": "توفر SmartDrill تتبعًا مغناطيسيًا في الوقت الفعلي للحفر الأفقي الاتجاهي، مما يتيح تركيبات أنابيب دقيقة عبر التضاريس الصعبة في جميع أنحاء العالم.",
+      "exploreProducts": "استكشف المنتجات",
+      "viewCaseStudies": "عرض دراسات الحالة"
     },
     "systemDelivered": {
-      "title": "Complete System Delivered",
-      "subtitle": "Full System · Ready to Deploy · 2-Crate Export Packaging",
-      "crate1": "Crate 1 - Main Equipment",
-      "crate2": "Crate 2 - Accessories"
+      "title": "نظام كامل تم تسليمه",
+      "subtitle": "نظام كامل · جاهز للنشر · تغليف تصدير صندوقين",
+      "crate1": "الصندوق 1 - المعدات الرئيسية",
+      "crate2": "الصندوق 2 - الملحقات"
     },
     "featuredProjects": {
-      "title": "Featured Projects",
-      "subtitle": "Real-world HDD projects completed with SmartDrill guidance systems",
-      "viewAll": "View All Case Studies"
+      "title": "المشاريع المميزة",
+      "subtitle": "مشاريع HDD حقيقية اكتملت بأنظمة SmartDrill",
+      "viewAll": "عرض جميع دراسات الحالة"
     },
     "whyChoose": {
-      "title": "Why Choose SmartDrill?",
-      "subtitle": "Trusted by HDD contractors worldwide for precision, reliability, and performance",
+      "title": "لماذا تختار SmartDrill؟",
+      "subtitle": "موثوق من مقاولي HDD في جميع أنحاء العالم للدقة والموثوقية والأداء",
       "items": {
-        "realTime": "Real-Time Tracking",
-        "realTimeDesc": "Continuous magnetic field monitoring provides instant position updates",
-        "highPrecision": "High Precision",
-        "highPrecisionDesc": "Millimeter-level accuracy in challenging soil conditions",
-        "easyOperation": "Easy Operation",
-        "easyOperationDesc": "Intuitive software interface reduces learning curve",
-        "allWeather": "All-Weather",
-        "allWeatherDesc": "Reliable operation in various environmental conditions",
-        "support": "Comprehensive Support",
-        "supportDesc": "Technical training and lifetime software updates",
-        "costEffective": "Cost Effective",
-        "costEffectiveDesc": "Competitive pricing with no hidden costs"
+        "realTime": "تتبع في الوقت الفعلي",
+        "realTimeDesc": "مراقبة مستمرة للمجال المغناطيسي توفر تحديثات فورية للموقع",
+        "highPrecision": "دقة عالية",
+        "highPrecisionDesc": "دقة ملليمترية في ظروف التربة الصعبة",
+        "easyOperation": "تشغيل سهل",
+        "easyOperationDesc": "واجهة برمجية سهلة الاستخدام تقلل منحنى التعلم",
+        "allWeather": "جميع الطقس",
+        "allWeatherDesc": "عملية موثوقة في الظروف البيئية المختلفة",
+        "support": "دعم شامل",
+        "supportDesc": "تدريب تقني وتحديثات برامج مدى الحياة",
+        "costEffective": "فعال من حيث التكلفة",
+        "costEffectiveDesc": "أسعار تنافسية بدون تكاليف خفية"
       },
-      "viewAllProducts": "View All Products"
+      "viewAllProducts": "عرض جميع المنتجات"
     },
     "videos": {
-      "title": "Product Videos",
-      "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-      "viewAll": "View All Videos"
+      "title": "فيديوهات المنتجات",
+      "subtitle": "شاهد البرامج التعليمية الشاملة لتحديد وإدارة النظام",
+      "viewAll": "عرض جميع الفيديوهات"
     }
   },
   "features": {
-    "title": "Product Features",
-    "subtitle": "Comprehensive magnetic guidance solutions for horizontal directional drilling",
+    "title": "ميزات المنتج",
+    "subtitle": "حلول توجيه مغناطيسي شاملة للحفر الأفقي الاتجاهي",
     "magneticSystem": {
-      "title": "Magnetic Guidance System",
-      "subtitle": "Four Essential Components",
-      "description": "Magnetic guidance system consists of four parts:"
+      "title": "نظام التوجيه المغناطيسي",
+      "subtitle": "أربعة مكونات أساسية",
+      "description": "يتكون نظام التوجيه المغناطيسي من أربعة أجزاء:"
     },
-    "specifications": "Specifications",
-    "keyBenefits": "Key Benefits",
-    "specsDiagram": "Specifications Diagram"
+    "specifications": "المواصفات",
+    "keyBenefits": "الفوائد الرئيسية",
+    "specsDiagram": "مخطط المواصفات"
   },
   "caseStudies": {
-    "title": "Case Studies",
-    "subtitle": "Real-world projects demonstrating SmartDrill precision guidance solutions",
+    "title": "دراسات الحالة",
+    "subtitle": "مشاريع حقيقية展示了 حلول SmartDrill الدقيقة",
     "stats": {
-      "projects": "Projects Completed",
-      "longest": "Longest Crossing",
-      "countries": "Countries",
-      "accuracy": "Encounter Accuracy"
+      "projects": "المشاريع المكتملة",
+      "longest": "أطول تقاطع",
+      "countries": "الدول",
+      "accuracy": "دقة التقاطع"
     },
-    "projectDescription": "Project Description",
-    "projectGallery": "Project Gallery",
-    "projectImages": "Project Images",
-    "previousProject": "Previous Project",
-    "nextProject": "Next Project",
-    "backToCaseStudies": "Back to Case Studies",
+    "projectDescription": "وصف المشروع",
+    "projectGallery": "معرض المشروع",
+    "projectImages": "صور المشروع",
+    "previousProject": "المشروع السابق",
+    "nextProject": "المشروع التالي",
+    "backToCaseStudies": "العودة إلى دراسات الحالة",
     "stats": {
-      "length": "Length",
-      "pipeSpec": "Pipe Spec",
-      "elevation": "Elevation",
-      "formation": "Formation",
-      "rigs": "HDD Rigs",
-      "guidance": "Guidance"
+      "length": "الطول",
+      "pipeSpec": "مواصفات الأنبوب",
+      "elevation": "الارتفاع",
+      "formation": "التكوين",
+      "rigs": "رافعات HDD",
+      "guidance": "التوجيه"
     }
   },
   "about": {
-    "title": "About SmartDrill",
-    "subtitle": "Leading provider of precision magnetic guidance systems for HDD drilling",
-    "productRange": "Product Range",
-    "applications": "Applications",
+    "title": "حول SmartDrill",
+    "subtitle": "مزود رائد لأنظمة التوجيه المغناطيسي الدقيق لحفر HDD",
+    "productRange": "مجموعة المنتجات",
+    "applications": "التطبيقات",
     "appItems": {
-      "river": "River crossings",
-      "mountain": "Mountain crossings",
-      "highway": "Highway/railway crossings",
-      "urban": "Urban utility installations",
-      "oilGas": "Oil & gas pipeline installation",
-      "water": "Water supply systems",
-      "telecom": "Telecommunications conduit"
+      "river": "تقاطعات الأنهار",
+      "mountain": "تقاطعات الجبال",
+      "highway": "تقاطعات الطرق/السكك الحديدية",
+      "urban": "مرافق المرافق الحضرية",
+      "oilGas": "تركيب خطوط الأنابيب النفطية والغازية",
+      "water": "أنظمة إمداد المياه",
+      "telecom": "قناة الاتصالات"
+    },
+    "stats": {
+      "projects": "مشاريع في جميع أنحاء العالم",
+      "years": "سنوات الخبرة",
+      "support": "الدعم التقني"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for inquiries, quotes, or technical support",
-    "name": "Name",
-    "email": "Email",
-    "company": "Company",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully!",
-    "error": "Failed to send message. Please try again."
+    "title": "اتصل بنا",
+    "subtitle": "تواصل مع فريقنا للاستفسارات وعروض الأسعار والدعم الفني",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "company": "الشركة",
+    "message": "الرسالة",
+    "send": "إرسال الرسالة",
+    "sending": "جارٍ الإرسال...",
+    "success": "تم إرسال الرسالة بنجاح!",
+    "error": "فشل إرسال الرسالة. يرجى المحاولة مرة أخرى.",
+    "getInTouch": "تواصل معنا",
+    "interestText": "مهتم بأنظمة التوجيه المغناطيسي الخاصة بنا؟ اتصل بنا للحصول على معلومات المنتجات والأسعار أو مناقشة متطلبات مشروعك.",
+    "whatsapp": "WhatsApp / الهاتف",
+    "emailLabel": "البريد الإلكتروني",
+    "address": "العنوان",
+    "sendInquiry": "إرسال الاستفسار",
+    "yourName": "اسمك *",
+    "companyName": "الشركة",
+    "country": "الدولة",
+    "emailAddress": "البريد الإلكتروني *",
+    "phoneWhatsApp": "الهاتف / WhatsApp",
+    "yourMessage": "رسالتك *"
   },
   "videos": {
-    "title": "Product Videos",
-    "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-    "undergroundEquipment": "Underground Equipment Connection",
-    "groundEquipment": "Ground Equipment Setup",
-    "softwareInterface": "Software Interface Guide"
+    "title": "فيديوهات المنتجات",
+    "subtitle": "شاهد البرامج التعليمية الشاملة لتحديد وإدارة النظام",
+    "undergroundEquipment": "توصيل المعدات تحت الأرض",
+    "groundEquipment": "إعداد المعدات الأرضية",
+    "softwareInterface": "دليل واجهة البرمجيات",
+    "dataAcquisition": "برنامج تعليمي للحصول على البيانات",
+    "keyConcepts": "المفاهيم الرئيسية",
+    "planWorkflow": "سير عمل الخطة"
   },
   "footer": {
-    "tagline": "Precision HDD Magnetic Guidance System",
-    "products": "Products",
-    "company": "Company",
-    "resources": "Resources",
-    "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyright": "SmartDrill. All rights reserved."
+    "tagline": "نظام التوجيه المغناطيسي HDD بدقة عالية",
+    "products": "المنتجات",
+    "company": "الشركة",
+    "resources": "الموارد",
+    "contact": "اتصل بنا",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "copyright": "SmartDrill. جميع الحقوق محفوظة."
   },
   "common": {
-    "learnMore": "Learn More",
-    "viewAll": "View All",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "retry": "Retry"
+    "learnMore": "معرفة المزيد",
+    "viewAll": "عرض الكل",
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ",
+    "retry": "إعادة المحاولة"
   }
 }

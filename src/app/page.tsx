@@ -21,8 +21,9 @@ export default function Home() {
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.15)_0%,transparent_70%)]" />
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight">
-              {t('home.hero.title')} <span className="text-blue-500">{t('home.hero.subtitle')}</span>
-              <br />{t('home.hero.subtitle')}
+              <span className="text-blue-500">{t('home.hero.title')}</span>
+              <br />
+              <span className="text-white/80">{t('home.hero.subtitle')}</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/70 max-w-3xl mx-auto mb-8 leading-relaxed">
               {t('home.hero.description')}

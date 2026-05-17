@@ -1,142 +1,162 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "videos": "Videos",
-    "caseStudies": "Case Studies",
-    "about": "About",
-    "contact": "Contact",
-    "getQuote": "Get Quote"
+    "home": "หน้าแรก",
+    "products": "ผลิตภัณฑ์",
+    "videos": "วิดีโอ",
+    "caseStudies": "กรณีศึกษา",
+    "about": "เกี่ยวกับเรา",
+    "contact": "ติดต่อเรา",
+    "getQuote": "ขอใบเสนอราคา"
   },
   "home": {
     "hero": {
-      "title": "Precision HDD Intersection",
-      "subtitle": "Magnetic Guidance System",
-      "description": "SmartDrill provides real-time magnetic tracking for horizontal directional drilling, enabling precise pipeline installations across challenging terrains worldwide.",
-      "exploreProducts": "Explore Products",
-      "viewCaseStudies": "View Case Studies"
+      "title": "แนวขนาน HDD แม่นยำสูง",
+      "subtitle": "ระบบนำทางแม่เหล็ก",
+      "description": "SmartDrill ให้การติดตามแม่เหล็กแบบเรียลไทม์สำหรับการเจาะทิศทางแนวนอน ทำให้สามารถติดตั้งท่อได้อย่างแม่นยำในภูมิประเทศที่ท้าทายทั่วโลก",
+      "exploreProducts": "สำรวจผลิตภัณฑ์",
+      "viewCaseStudies": "ดูกรณีศึกษา"
     },
     "systemDelivered": {
-      "title": "Complete System Delivered",
-      "subtitle": "Full System · Ready to Deploy · 2-Crate Export Packaging",
-      "crate1": "Crate 1 - Main Equipment",
-      "crate2": "Crate 2 - Accessories"
+      "title": "ระบบสมบูรณ์จัดส่งแล้ว",
+      "subtitle": "ระบบสมบูรณ์ · พร้อมใช้งาน · บรรจุภัณฑ์ส่งออก 2 กล่อง",
+      "crate1": "กล่อง 1 - อุปกรณ์หลัก",
+      "crate2": "กล่อง 2 - อุปกรณ์เสริม"
     },
     "featuredProjects": {
-      "title": "Featured Projects",
-      "subtitle": "Real-world HDD projects completed with SmartDrill guidance systems",
-      "viewAll": "View All Case Studies"
+      "title": "โครงการเด่น",
+      "subtitle": "โครงการ HDD จริงที่ดำเนินการเสร็จสิ้นด้วยระบบนำทาง SmartDrill",
+      "viewAll": "ดูกรณีศึกษาทั้งหมด"
     },
     "whyChoose": {
-      "title": "Why Choose SmartDrill?",
-      "subtitle": "Trusted by HDD contractors worldwide for precision, reliability, and performance",
+      "title": "ทำไมต้องเลือก SmartDrill?",
+      "subtitle": "ไว้วางใจจากผู้รับเหมา HDD ทั่วโลกในด้านความแม่นยำ ความน่าเชื่อถือ และประสิทธิภาพ",
       "items": {
-        "realTime": "Real-Time Tracking",
-        "realTimeDesc": "Continuous magnetic field monitoring provides instant position updates",
-        "highPrecision": "High Precision",
-        "highPrecisionDesc": "Millimeter-level accuracy in challenging soil conditions",
-        "easyOperation": "Easy Operation",
-        "easyOperationDesc": "Intuitive software interface reduces learning curve",
-        "allWeather": "All-Weather",
-        "allWeatherDesc": "Reliable operation in various environmental conditions",
-        "support": "Comprehensive Support",
-        "supportDesc": "Technical training and lifetime software updates",
-        "costEffective": "Cost Effective",
-        "costEffectiveDesc": "Competitive pricing with no hidden costs"
+        "realTime": "การติดตามแบบเรียลไทม์",
+        "realTimeDesc": "การตรวจสอบสนามแม่เหล็กอย่างต่อเนื่องให้การอัปเดตตำแหน่งทันที",
+        "highPrecision": "ความแม่นยำสูง",
+        "highPrecisionDesc": "ความแม่นยำระดับมิลลิเมตรในสภาพดินที่ท้าทาย",
+        "easyOperation": "การใช้งานง่าย",
+        "easyOperationDesc": "อินเทอร์เฟซซอฟต์แวร์ที่ใช้ง่ายลดเส้นโค้งการเรียนรู้",
+        "allWeather": "ทุกสภาพอากาศ",
+        "allWeatherDesc": "การทำงานที่เชื่อถือได้ในสภาพแวดล้อมต่างๆ",
+        "support": "การสนับสนุนอย่างครบวงจร",
+        "supportDesc": "การฝึกอบรมเทคนิคและอัปเดตซอฟต์แวร์ตลอดชีพ",
+        "costEffective": "คุ้มค่า",
+        "costEffectiveDesc": "ราคาแข่งขันได้โดยไม่มีค่าใช้จ่ายซ่อนเร้น"
       },
-      "viewAllProducts": "View All Products"
+      "viewAllProducts": "ดูผลิตภัณฑ์ทั้งหมด"
     },
     "videos": {
-      "title": "Product Videos",
-      "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-      "viewAll": "View All Videos"
+      "title": "วิดีโอผลิตภัณฑ์",
+      "subtitle": "ชมบทช่วยสอนครบถ้วนเกี่ยวกับการตั้งค่าและการทำงานของระบบ",
+      "viewAll": "ดูวิดีโอทั้งหมด"
     }
   },
   "features": {
-    "title": "Product Features",
-    "subtitle": "Comprehensive magnetic guidance solutions for horizontal directional drilling",
+    "title": "คุณสมบัติผลิตภัณฑ์",
+    "subtitle": "โซลูชันการนำทางด้วยแม่เหล็กอย่างครบถ้วนสำหรับการเจาะทิศทางแนวนอน",
     "magneticSystem": {
-      "title": "Magnetic Guidance System",
-      "subtitle": "Four Essential Components",
-      "description": "Magnetic guidance system consists of four parts:"
+      "title": "ระบบนำทางแม่เหล็ก",
+      "subtitle": "สี่ส่วนประกอบหลัก",
+      "description": "ระบบนำทางแม่เหล็กประกอบด้วยสี่ส่วน:"
     },
-    "specifications": "Specifications",
-    "keyBenefits": "Key Benefits",
-    "specsDiagram": "Specifications Diagram"
+    "specifications": "ข้อกำหนด",
+    "keyBenefits": "ประโยชน์หลัก",
+    "specsDiagram": "แผนภาพข้อกำหนด"
   },
   "caseStudies": {
-    "title": "Case Studies",
-    "subtitle": "Real-world projects demonstrating SmartDrill precision guidance solutions",
+    "title": "กรณีศึกษา",
+    "subtitle": "โครงการจริงที่แสดงโซลูชันการนำทางแม่นยำของ SmartDrill",
     "stats": {
-      "projects": "Projects Completed",
-      "longest": "Longest Crossing",
-      "countries": "Countries",
-      "accuracy": "Encounter Accuracy"
+      "projects": "โครงการที่เสร็จสิ้น",
+      "longest": "แนวขนานที่ยาวที่สุด",
+      "countries": "ประเทศ",
+      "accuracy": "ความแม่นยำในการพบกัน"
     },
-    "projectDescription": "Project Description",
-    "projectGallery": "Project Gallery",
-    "projectImages": "Project Images",
-    "previousProject": "Previous Project",
-    "nextProject": "Next Project",
-    "backToCaseStudies": "Back to Case Studies",
+    "projectDescription": "รายละเอียดโครงการ",
+    "projectGallery": "แกลเลอรีโครงการ",
+    "projectImages": "ภาพโครงการ",
+    "previousProject": "โครงการก่อนหน้า",
+    "nextProject": "โครงการถัดไป",
+    "backToCaseStudies": "กลับไปยังกรณีศึกษา",
     "stats": {
-      "length": "Length",
-      "pipeSpec": "Pipe Spec",
-      "elevation": "Elevation",
-      "formation": "Formation",
-      "rigs": "HDD Rigs",
-      "guidance": "Guidance"
+      "length": "ความยาว",
+      "pipeSpec": "ข้อกำหนดท่อ",
+      "elevation": "ระดับความสูง",
+      "formation": "การก่อตัว",
+      "rigs": "เครื่องเจาะ HDD",
+      "guidance": "การนำทาง"
     }
   },
   "about": {
-    "title": "About SmartDrill",
-    "subtitle": "Leading provider of precision magnetic guidance systems for HDD drilling",
-    "productRange": "Product Range",
-    "applications": "Applications",
+    "title": "เกี่ยวกับ SmartDrill",
+    "subtitle": "ผู้ให้บริการชั้นนำของระบบนำทางแม่เหล็กแม่นยำสำหรับการเจาะ HDD",
+    "productRange": "พอร์ตโฟลิโอผลิตภัณฑ์",
+    "applications": "การใช้งาน",
     "appItems": {
-      "river": "River crossings",
-      "mountain": "Mountain crossings",
-      "highway": "Highway/railway crossings",
-      "urban": "Urban utility installations",
-      "oilGas": "Oil & gas pipeline installation",
-      "water": "Water supply systems",
-      "telecom": "Telecommunications conduit"
+      "river": "ทางข้ามแม่น้ำ",
+      "mountain": "ทางข้ามภูเขา",
+      "highway": "ทางข้ามถนน/รางรถไฟ",
+      "urban": "การติดตั้งสาธารณูปโภคในเมือง",
+      "oilGas": "การติดตั้งท่อน้ำมันและก๊าซ",
+      "water": "ระบบจ่ายน้ำ",
+      "telecom": "ท่อโทรคมนาคม"
+    },
+    "stats": {
+      "projects": "โครงการทั่วโลก",
+      "years": "ปีของประสบการณ์",
+      "support": "การสนับสนุนทางเทคนิค"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for inquiries, quotes, or technical support",
-    "name": "Name",
-    "email": "Email",
-    "company": "Company",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully!",
-    "error": "Failed to send message. Please try again."
+    "title": "ติดต่อเรา",
+    "subtitle": "ติดต่อทีมงานของเราเพื่อสอบถาม ขอใบเสนอราคา หรือการสนับสนุนทางเทคนิค",
+    "name": "ชื่อ",
+    "email": "อีเมล",
+    "company": "บริษัท",
+    "message": "ข้อความ",
+    "send": "ส่งข้อความ",
+    "sending": "กำลังส่ง...",
+    "success": "ส่งข้อความสำเร็จ!",
+    "error": "ส่งข้อความไม่สำเร็จ โปรดลองอีกครั้ง",
+    "getInTouch": "ติดต่อเรา",
+    "interestText": "สนใจระบบนำทางแม่เหล็กของเรา? ติดต่อเราเพื่อข้อมูลผลิตภัณฑ์ ราคา หรือหารือเกี่ยวกับข้อกำหนดโครงการของคุณ",
+    "whatsapp": "WhatsApp / โทรศัพท์",
+    "emailLabel": "อีเมล",
+    "address": "ที่อยู่",
+    "sendInquiry": "ส่งคำถาม",
+    "yourName": "ชื่อของคุณ *",
+    "companyName": "บริษัท",
+    "country": "ประเทศ",
+    "emailAddress": "อีเมล *",
+    "phoneWhatsApp": "โทรศัพท์ / WhatsApp",
+    "yourMessage": "ข้อความของคุณ *"
   },
   "videos": {
-    "title": "Product Videos",
-    "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-    "undergroundEquipment": "Underground Equipment Connection",
-    "groundEquipment": "Ground Equipment Setup",
-    "softwareInterface": "Software Interface Guide"
+    "title": "วิดีโอผลิตภัณฑ์",
+    "subtitle": "ชมบทช่วยสอนครบถ้วนเกี่ยวกับการตั้งค่าและการทำงานของระบบ",
+    "undergroundEquipment": "การเชื่อมต่ออุปกรณ์ใต้ดิน",
+    "groundEquipment": "การตั้งค่าอุปกรณ์ภาคพื้น",
+    "softwareInterface": "คู่มืออินเทอร์เฟซซอฟต์แวร์",
+    "dataAcquisition": "บทช่วยสอนการเก็บข้อมูล",
+    "keyConcepts": "แนวคิดหลักอธิบาย",
+    "planWorkflow": "เวิร์กโฟลว์ข้อมูลแผน"
   },
   "footer": {
-    "tagline": "Precision HDD Magnetic Guidance System",
-    "products": "Products",
-    "company": "Company",
-    "resources": "Resources",
-    "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyright": "SmartDrill. All rights reserved."
+    "tagline": "ระบบนำทางแม่เหล็ก HDD แม่นยำสูง",
+    "products": "ผลิตภัณฑ์",
+    "company": "บริษัท",
+    "resources": "แหล่งข้อมูล",
+    "contact": "ติดต่อ",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "terms": "เงื่อนไขการให้บริการ",
+    "copyright": "SmartDrill. สงวนลิขสิทธิ์"
   },
   "common": {
-    "learnMore": "Learn More",
-    "viewAll": "View All",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "retry": "Retry"
+    "learnMore": "เรียนรู้เพิ่มเติม",
+    "viewAll": "ดูทั้งหมด",
+    "loading": "กำลังโหลด...",
+    "error": "เกิดข้อผิดพลาด",
+    "retry": "ลองอีกครั้ง"
   }
 }

@@ -1,142 +1,162 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "videos": "Videos",
-    "caseStudies": "Case Studies",
-    "about": "About",
-    "contact": "Contact",
-    "getQuote": "Get Quote"
+    "home": "Trang chủ",
+    "products": "Sản phẩm",
+    "videos": "Video",
+    "caseStudies": "Nghiên cứu",
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ",
+    "getQuote": "Yêu cầu Báo giá"
   },
   "home": {
     "hero": {
-      "title": "Precision HDD Intersection",
-      "subtitle": "Magnetic Guidance System",
-      "description": "SmartDrill provides real-time magnetic tracking for horizontal directional drilling, enabling precise pipeline installations across challenging terrains worldwide.",
-      "exploreProducts": "Explore Products",
-      "viewCaseStudies": "View Case Studies"
+      "title": "Giao lộ HDD Chính xác",
+      "subtitle": "Hệ thống Dẫn hướng Từ tính",
+      "description": "SmartDrill cung cấp theo dõi từ tính thời gian thực cho khoan định hướng ngang, cho phép lắp đặt đường ống chính xác trên các địa hình khó khăn trên toàn thế giới.",
+      "exploreProducts": "Khám phá Sản phẩm",
+      "viewCaseStudies": "Xem Nghiên cứu"
     },
     "systemDelivered": {
-      "title": "Complete System Delivered",
-      "subtitle": "Full System · Ready to Deploy · 2-Crate Export Packaging",
-      "crate1": "Crate 1 - Main Equipment",
-      "crate2": "Crate 2 - Accessories"
+      "title": "Hệ thống Hoàn chỉnh Được Giao",
+      "subtitle": "Hệ thống Hoàn chỉnh · Sẵn sàng Triển khai · Đóng gói Xuất khẩu 2 Thùng",
+      "crate1": "Thùng 1 - Thiết bị Chính",
+      "crate2": "Thùng 2 - Phụ kiện"
     },
     "featuredProjects": {
-      "title": "Featured Projects",
-      "subtitle": "Real-world HDD projects completed with SmartDrill guidance systems",
-      "viewAll": "View All Case Studies"
+      "title": "Dự án Nổi bật",
+      "subtitle": "Các dự án HDD thực tế được hoàn thành với hệ thống dẫn hướng SmartDrill",
+      "viewAll": "Xem Tất cả Nghiên cứu"
     },
     "whyChoose": {
-      "title": "Why Choose SmartDrill?",
-      "subtitle": "Trusted by HDD contractors worldwide for precision, reliability, and performance",
+      "title": "Tại sao Chọn SmartDrill?",
+      "subtitle": "Được các nhà thầu HDD trên toàn thế giới tin tưởng về độ chính xác, độ tin cậy và hiệu suất",
       "items": {
-        "realTime": "Real-Time Tracking",
-        "realTimeDesc": "Continuous magnetic field monitoring provides instant position updates",
-        "highPrecision": "High Precision",
-        "highPrecisionDesc": "Millimeter-level accuracy in challenging soil conditions",
-        "easyOperation": "Easy Operation",
-        "easyOperationDesc": "Intuitive software interface reduces learning curve",
-        "allWeather": "All-Weather",
-        "allWeatherDesc": "Reliable operation in various environmental conditions",
-        "support": "Comprehensive Support",
-        "supportDesc": "Technical training and lifetime software updates",
-        "costEffective": "Cost Effective",
-        "costEffectiveDesc": "Competitive pricing with no hidden costs"
+        "realTime": "Theo dõi Thời gian thực",
+        "realTimeDesc": "Giám sát trường từ tính liên tục cung cấp cập nhật vị trí tức thì",
+        "highPrecision": "Độ chính xác Cao",
+        "highPrecisionDesc": "Độ chính xác milimet trong điều kiện đất khó khăn",
+        "easyOperation": "Vận hành Dễ dàng",
+        "easyOperationDesc": "Giao diện phần mềm trực quan giảm đường cong học tập",
+        "allWeather": "Mọi Thời tiết",
+        "allWeatherDesc": "Hoạt động đáng tin cậy trong các điều kiện môi trường khác nhau",
+        "support": "Hỗ trợ Toàn diện",
+        "supportDesc": "Đào tạo kỹ thuật và cập nhật phần mềm trọn đời",
+        "costEffective": "Tiết kiệm Chi phí",
+        "costEffectiveDesc": "Giá cạnh tranh không có chi phí ẩn"
       },
-      "viewAllProducts": "View All Products"
+      "viewAllProducts": "Xem Tất cả Sản phẩm"
     },
     "videos": {
-      "title": "Product Videos",
-      "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-      "viewAll": "View All Videos"
+      "title": "Video Sản phẩm",
+      "subtitle": "Xem các hướng dẫn toàn diện về cài đặt và vận hành hệ thống",
+      "viewAll": "Xem Tất cả Video"
     }
   },
   "features": {
-    "title": "Product Features",
-    "subtitle": "Comprehensive magnetic guidance solutions for horizontal directional drilling",
+    "title": "Tính năng Sản phẩm",
+    "subtitle": "Giải pháp dẫn hướng từ tính toàn diện cho khoan định hướng ngang",
     "magneticSystem": {
-      "title": "Magnetic Guidance System",
-      "subtitle": "Four Essential Components",
-      "description": "Magnetic guidance system consists of four parts:"
+      "title": "Hệ thống Dẫn hướng Từ tính",
+      "subtitle": "Bốn Thành phần Thiết yếu",
+      "description": "Hệ thống dẫn hướng từ tính bao gồm bốn phần:"
     },
-    "specifications": "Specifications",
-    "keyBenefits": "Key Benefits",
-    "specsDiagram": "Specifications Diagram"
+    "specifications": "Thông số kỹ thuật",
+    "keyBenefits": "Lợi ích Chính",
+    "specsDiagram": "Sơ đồ Thông số"
   },
   "caseStudies": {
-    "title": "Case Studies",
-    "subtitle": "Real-world projects demonstrating SmartDrill precision guidance solutions",
+    "title": "Nghiên cứu",
+    "subtitle": "Các dự án thực tế thể hiện giải pháp dẫn hướng chính xác của SmartDrill",
     "stats": {
-      "projects": "Projects Completed",
-      "longest": "Longest Crossing",
-      "countries": "Countries",
-      "accuracy": "Encounter Accuracy"
+      "projects": "Dự án Hoàn thành",
+      "longest": "Giao lộ Dài nhất",
+      "countries": "Quốc gia",
+      "accuracy": "Độ chính xác Gặp nhau"
     },
-    "projectDescription": "Project Description",
-    "projectGallery": "Project Gallery",
-    "projectImages": "Project Images",
-    "previousProject": "Previous Project",
-    "nextProject": "Next Project",
-    "backToCaseStudies": "Back to Case Studies",
+    "projectDescription": "Mô tả Dự án",
+    "projectGallery": "Bộ sưu tập Dự án",
+    "projectImages": "Hình ảnh Dự án",
+    "previousProject": "Dự án Trước",
+    "nextProject": "Dự án Tiếp theo",
+    "backToCaseStudies": "Quay lại Nghiên cứu",
     "stats": {
-      "length": "Length",
-      "pipeSpec": "Pipe Spec",
-      "elevation": "Elevation",
-      "formation": "Formation",
-      "rigs": "HDD Rigs",
-      "guidance": "Guidance"
+      "length": "Chiều dài",
+      "pipeSpec": "Quy cách ống",
+      "elevation": "Độ cao",
+      "formation": "Địa tầng",
+      "rigs": "Cần khoan HDD",
+      "guidance": "Dẫn hướng"
     }
   },
   "about": {
-    "title": "About SmartDrill",
-    "subtitle": "Leading provider of precision magnetic guidance systems for HDD drilling",
-    "productRange": "Product Range",
-    "applications": "Applications",
+    "title": "Về SmartDrill",
+    "subtitle": "Nhà cung cấp hàng đầu hệ thống dẫn hướng từ tính chính xác cho khoan HDD",
+    "productRange": "Dòng sản phẩm",
+    "applications": "Ứng dụng",
     "appItems": {
-      "river": "River crossings",
-      "mountain": "Mountain crossings",
-      "highway": "Highway/railway crossings",
-      "urban": "Urban utility installations",
-      "oilGas": "Oil & gas pipeline installation",
-      "water": "Water supply systems",
-      "telecom": "Telecommunications conduit"
+      "river": "Băng qua sông",
+      "mountain": "Băng qua núi",
+      "highway": "Băng qua đường/đường sắt",
+      "urban": "Lắp đặt tiện ích đô thị",
+      "oilGas": "Lắp đặt đường ống dầu khí",
+      "water": "Hệ thống cấp nước",
+      "telecom": "Ống dẫn viễn thông"
+    },
+    "stats": {
+      "projects": "Dự án Toàn cầu",
+      "years": "Năm Kinh nghiệm",
+      "support": "Hỗ trợ Kỹ thuật"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for inquiries, quotes, or technical support",
-    "name": "Name",
+    "title": "Liên hệ",
+    "subtitle": "Liên hệ với đội ngũ của chúng tôi để được tư vấn, báo giá hoặc hỗ trợ kỹ thuật",
+    "name": "Tên",
     "email": "Email",
-    "company": "Company",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully!",
-    "error": "Failed to send message. Please try again."
+    "company": "Công ty",
+    "message": "Tin nhắn",
+    "send": "Gửi Tin nhắn",
+    "sending": "Đang gửi...",
+    "success": "Tin nhắn đã được gửi thành công!",
+    "error": "Gửi tin nhắn thất bại. Vui lòng thử lại.",
+    "getInTouch": "Liên hệ",
+    "interestText": "Quan tâm đến hệ thống dẫn hướng từ tính của chúng tôi? Liên hệ với chúng tôi để biết thông tin sản phẩm, giá cả hoặc thảo luận về yêu cầu dự án của bạn.",
+    "whatsapp": "WhatsApp / Điện thoại",
+    "emailLabel": "Email",
+    "address": "Địa chỉ",
+    "sendInquiry": "Gửi Yêu cầu",
+    "yourName": "Tên của bạn *",
+    "companyName": "Công ty",
+    "country": "Quốc gia",
+    "emailAddress": "Email *",
+    "phoneWhatsApp": "Điện thoại / WhatsApp",
+    "yourMessage": "Tin nhắn của bạn *"
   },
   "videos": {
-    "title": "Product Videos",
-    "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-    "undergroundEquipment": "Underground Equipment Connection",
-    "groundEquipment": "Ground Equipment Setup",
-    "softwareInterface": "Software Interface Guide"
+    "title": "Video Sản phẩm",
+    "subtitle": "Xem các hướng dẫn toàn diện về cài đặt và vận hành hệ thống",
+    "undergroundEquipment": "Kết nối Thiết bị Ngầm",
+    "groundEquipment": "Cài đặt Thiết bị Mặt đất",
+    "softwareInterface": "Hướng dẫn Giao diện Phần mềm",
+    "dataAcquisition": "Hướng dẫn Thu thập Dữ liệu",
+    "keyConcepts": "Các Khái niệm Chính Giải thích",
+    "planWorkflow": "Quy trình Dữ liệu Kế hoạch"
   },
   "footer": {
-    "tagline": "Precision HDD Magnetic Guidance System",
-    "products": "Products",
-    "company": "Company",
-    "resources": "Resources",
-    "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyright": "SmartDrill. All rights reserved."
+    "tagline": "Hệ thống Dẫn hướng Từ tính HDD Chính xác",
+    "products": "Sản phẩm",
+    "company": "Công ty",
+    "resources": "Tài nguyên",
+    "contact": "Liên hệ",
+    "privacy": "Chính sách Quyền riêng tư",
+    "terms": "Điều khoản Dịch vụ",
+    "copyright": "SmartDrill. Bảo lưu mọi quyền."
   },
   "common": {
-    "learnMore": "Learn More",
-    "viewAll": "View All",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "retry": "Retry"
+    "learnMore": "Tìm hiểu thêm",
+    "viewAll": "Xem tất cả",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "retry": "Thử lại"
   }
 }

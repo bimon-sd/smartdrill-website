@@ -1,142 +1,162 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "videos": "Videos",
-    "caseStudies": "Case Studies",
-    "about": "About",
-    "contact": "Contact",
-    "getQuote": "Get Quote"
+    "home": "Início",
+    "products": "Produtos",
+    "videos": "Vídeos",
+    "caseStudies": "Estudos de Caso",
+    "about": "Sobre",
+    "contact": "Contato",
+    "getQuote": "Solicitar Cotação"
   },
   "home": {
     "hero": {
-      "title": "Precision HDD Intersection",
-      "subtitle": "Magnetic Guidance System",
-      "description": "SmartDrill provides real-time magnetic tracking for horizontal directional drilling, enabling precise pipeline installations across challenging terrains worldwide.",
-      "exploreProducts": "Explore Products",
-      "viewCaseStudies": "View Case Studies"
+      "title": "Interseção HDD de Precisão",
+      "subtitle": "Sistema de Guiamento Magnético",
+      "description": "SmartDrill fornece rastreamento magnético em tempo real para perfuração direcional horizontal, permitindo instalações de tubulação precisas em terrenos desafiadores em todo o mundo.",
+      "exploreProducts": "Explorar Produtos",
+      "viewCaseStudies": "Ver Estudos de Caso"
     },
     "systemDelivered": {
-      "title": "Complete System Delivered",
-      "subtitle": "Full System · Ready to Deploy · 2-Crate Export Packaging",
-      "crate1": "Crate 1 - Main Equipment",
-      "crate2": "Crate 2 - Accessories"
+      "title": "Sistema Completo Entregue",
+      "subtitle": "Sistema Completo · Pronto para Implantação · Embalagem de Exportação 2 Caixas",
+      "crate1": "Caixa 1 - Equipamento Principal",
+      "crate2": "Caixa 2 - Acessórios"
     },
     "featuredProjects": {
-      "title": "Featured Projects",
-      "subtitle": "Real-world HDD projects completed with SmartDrill guidance systems",
-      "viewAll": "View All Case Studies"
+      "title": "Projetos em Destaque",
+      "subtitle": "Projetos HDD reais concluídos com sistemas de guiamento SmartDrill",
+      "viewAll": "Ver Todos os Estudos de Caso"
     },
     "whyChoose": {
-      "title": "Why Choose SmartDrill?",
-      "subtitle": "Trusted by HDD contractors worldwide for precision, reliability, and performance",
+      "title": "Por Que Escolher SmartDrill?",
+      "subtitle": "Confiado por empreiteiros de HDD em todo o mundo por precisão, confiabilidade e desempenho",
       "items": {
-        "realTime": "Real-Time Tracking",
-        "realTimeDesc": "Continuous magnetic field monitoring provides instant position updates",
-        "highPrecision": "High Precision",
-        "highPrecisionDesc": "Millimeter-level accuracy in challenging soil conditions",
-        "easyOperation": "Easy Operation",
-        "easyOperationDesc": "Intuitive software interface reduces learning curve",
-        "allWeather": "All-Weather",
-        "allWeatherDesc": "Reliable operation in various environmental conditions",
-        "support": "Comprehensive Support",
-        "supportDesc": "Technical training and lifetime software updates",
-        "costEffective": "Cost Effective",
-        "costEffectiveDesc": "Competitive pricing with no hidden costs"
+        "realTime": "Rastreamento em Tempo Real",
+        "realTimeDesc": "Monitoramento contínuo do campo magnético fornece atualizações de posição instantâneas",
+        "highPrecision": "Alta Precisão",
+        "highPrecisionDesc": "Precisão milimétrica em condições de solo desafiadoras",
+        "easyOperation": "Operação Fácil",
+        "easyOperationDesc": "Interface de software intuitiva reduz a curva de aprendizado",
+        "allWeather": "Todos os Climas",
+        "allWeatherDesc": "Operação confiável em diversas condições ambientais",
+        "support": "Suporte Abrangente",
+        "supportDesc": "Treinamento técnico e atualizações de software vitalícias",
+        "costEffective": "Custo-Efetivo",
+        "costEffectiveDesc": "Preços competitivos sem custos ocultos"
       },
-      "viewAllProducts": "View All Products"
+      "viewAllProducts": "Ver Todos os Produtos"
     },
     "videos": {
-      "title": "Product Videos",
-      "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-      "viewAll": "View All Videos"
+      "title": "Vídeos de Produtos",
+      "subtitle": "Assista tutoriais abrangentes sobre configuração e operação do sistema",
+      "viewAll": "Ver Todos os Vídeos"
     }
   },
   "features": {
-    "title": "Product Features",
-    "subtitle": "Comprehensive magnetic guidance solutions for horizontal directional drilling",
+    "title": "Recursos do Produto",
+    "subtitle": "Soluções abrangentes de guiamento magnético para perfuração direcional horizontal",
     "magneticSystem": {
-      "title": "Magnetic Guidance System",
-      "subtitle": "Four Essential Components",
-      "description": "Magnetic guidance system consists of four parts:"
+      "title": "Sistema de Guiamento Magnético",
+      "subtitle": "Quatro Componentes Essenciais",
+      "description": "O sistema de guiamento magnético consiste em quatro partes:"
     },
-    "specifications": "Specifications",
-    "keyBenefits": "Key Benefits",
-    "specsDiagram": "Specifications Diagram"
+    "specifications": "Especificações",
+    "keyBenefits": "Benefícios Principais",
+    "specsDiagram": "Diagrama de Especificações"
   },
   "caseStudies": {
-    "title": "Case Studies",
-    "subtitle": "Real-world projects demonstrating SmartDrill precision guidance solutions",
+    "title": "Estudos de Caso",
+    "subtitle": "Projetos reais demonstrando soluções de guiamento de precisão SmartDrill",
     "stats": {
-      "projects": "Projects Completed",
-      "longest": "Longest Crossing",
-      "countries": "Countries",
-      "accuracy": "Encounter Accuracy"
+      "projects": "Projetos Concluídos",
+      "longest": "Travessia Mais Longa",
+      "countries": "Países",
+      "accuracy": "Precisão de Interseção"
     },
-    "projectDescription": "Project Description",
-    "projectGallery": "Project Gallery",
-    "projectImages": "Project Images",
-    "previousProject": "Previous Project",
-    "nextProject": "Next Project",
-    "backToCaseStudies": "Back to Case Studies",
+    "projectDescription": "Descrição do Projeto",
+    "projectGallery": "Galeria do Projeto",
+    "projectImages": "Imagens do Projeto",
+    "previousProject": "Projeto Anterior",
+    "nextProject": "Próximo Projeto",
+    "backToCaseStudies": "Voltar aos Estudos de Caso",
     "stats": {
-      "length": "Length",
-      "pipeSpec": "Pipe Spec",
-      "elevation": "Elevation",
-      "formation": "Formation",
-      "rigs": "HDD Rigs",
-      "guidance": "Guidance"
+      "length": "Comprimento",
+      "pipeSpec": "Spec. Tubo",
+      "elevation": "Elevação",
+      "formation": "Formação",
+      "rigs": "Sondas HDD",
+      "guidance": "Guiamento"
     }
   },
   "about": {
-    "title": "About SmartDrill",
-    "subtitle": "Leading provider of precision magnetic guidance systems for HDD drilling",
-    "productRange": "Product Range",
-    "applications": "Applications",
+    "title": "Sobre SmartDrill",
+    "subtitle": "Fornecedor líder de sistemas de guiamento magnético de precisão para perfuração HDD",
+    "productRange": "Portfólio de Produtos",
+    "applications": "Aplicações",
     "appItems": {
-      "river": "River crossings",
-      "mountain": "Mountain crossings",
-      "highway": "Highway/railway crossings",
-      "urban": "Urban utility installations",
-      "oilGas": "Oil & gas pipeline installation",
-      "water": "Water supply systems",
-      "telecom": "Telecommunications conduit"
+      "river": "Travessias de rios",
+      "mountain": "Travessias de montanhas",
+      "highway": "Travessias de estradas/ferrovias",
+      "urban": "Instalações de utilidades urbanas",
+      "oilGas": "Instalação de oleodutos e gasodutos",
+      "water": "Sistemas de abastecimento de água",
+      "telecom": "Conduto de telecomunicações"
+    },
+    "stats": {
+      "projects": "Projetos no Mundo",
+      "years": "Anos de Experiência",
+      "support": "Suporte Técnico"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for inquiries, quotes, or technical support",
-    "name": "Name",
-    "email": "Email",
-    "company": "Company",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully!",
-    "error": "Failed to send message. Please try again."
+    "title": "Contate-nos",
+    "subtitle": "Entre em contato com nossa equipe para consultas, cotações ou suporte técnico",
+    "name": "Nome",
+    "email": "E-mail",
+    "company": "Empresa",
+    "message": "Mensagem",
+    "send": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada com sucesso!",
+    "error": "Falha ao enviar mensagem. Por favor, tente novamente.",
+    "getInTouch": "Entre em Contato",
+    "interestText": "Interessado em nossos sistemas de guiamento magnético? Contate-nos para informações de produtos, preços ou para discutir os requisitos do seu projeto.",
+    "whatsapp": "WhatsApp / Telefone",
+    "emailLabel": "E-mail",
+    "address": "Endereço",
+    "sendInquiry": "Enviar Consulta",
+    "yourName": "Seu Nome *",
+    "companyName": "Empresa",
+    "country": "País",
+    "emailAddress": "E-mail *",
+    "phoneWhatsApp": "Telefone / WhatsApp",
+    "yourMessage": "Sua Mensagem *"
   },
   "videos": {
-    "title": "Product Videos",
-    "subtitle": "Watch comprehensive tutorials covering system setup and operation",
-    "undergroundEquipment": "Underground Equipment Connection",
-    "groundEquipment": "Ground Equipment Setup",
-    "softwareInterface": "Software Interface Guide"
+    "title": "Vídeos de Produtos",
+    "subtitle": "Assista tutoriais abrangentes sobre configuração e operação do sistema",
+    "undergroundEquipment": "Conexão de Equipamentos Subterrâneos",
+    "groundEquipment": "Configuração de Equipamentos Terrestres",
+    "softwareInterface": "Guia da Interface de Software",
+    "dataAcquisition": "Tutorial de Aquisição de Dados",
+    "keyConcepts": "Conceitos Principais Explicados",
+    "planWorkflow": "Fluxo de Trabalho do Plano"
   },
   "footer": {
-    "tagline": "Precision HDD Magnetic Guidance System",
-    "products": "Products",
-    "company": "Company",
-    "resources": "Resources",
-    "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyright": "SmartDrill. All rights reserved."
+    "tagline": "Sistema de Guiamento Magnético HDD de Precisão",
+    "products": "Produtos",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyright": "SmartDrill. Todos os direitos reservados."
   },
   "common": {
-    "learnMore": "Learn More",
-    "viewAll": "View All",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "retry": "Retry"
+    "learnMore": "Saiba Mais",
+    "viewAll": "Ver Tudo",
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "retry": "Tentar Novamente"
   }
 }
