@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "videos": "视频",
+    "caseStudies": "案例研究",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "getQuote": "获取报价"
+  },
+  "home": {
+    "hero": {
+      "title": "精密HDD交叉",
+      "subtitle": "磁导向系统",
+      "description": "SmartDrill为水平定向钻探提供实时磁跟踪，使全球困难地形中的精确管道安装成为可能。",
+      "exploreProducts": "探索产品",
+      "viewCaseStudies": "查看案例研究"
+    },
+    "systemDelivered": {
+      "title": "完整系统交付",
+      "subtitle": "完整系统 · 随时部署 · 2箱出口包装",
+      "crate1": "箱1 - 主要设备",
+      "crate2": "箱2 - 配件"
+    },
+    "featuredProjects": {
+      "title": "精选项目",
+      "subtitle": "使用SmartDrill导向系统完成的真实HDD项目",
+      "viewAll": "查看所有案例研究"
+    },
+    "whyChoose": {
+      "title": "为什么选择SmartDrill？",
+      "subtitle": "全球HDD承包商信赖的精确度、可靠性和性能",
+      "items": {
+        "realTime": "实时跟踪",
+        "realTimeDesc": "持续磁场监控提供即时位置更新",
+        "highPrecision": "高精度",
+        "highPrecisionDesc": "在困难土壤条件下达到毫米级精度",
+        "easyOperation": "易于操作",
+        "easyOperationDesc": "直观的软件界面减少学习曲线",
+        "allWeather": "全天候",
+        "allWeatherDesc": "在各种环境条件下可靠运行",
+        "support": "全面支持",
+        "supportDesc": "技术培训和终身软件更新",
+        "costEffective": "经济实惠",
+        "costEffectiveDesc": "有竞争力的价格，无隐藏成本"
+      },
+      "viewAllProducts": "查看所有产品"
+    },
+    "videos": {
+      "title": "产品视频",
+      "subtitle": "观看涵盖系统设置和操作的综合教程",
+      "viewAll": "查看所有视频"
+    }
+  },
+  "features": {
+    "title": "产品特点",
+    "subtitle": "水平定向钻探的综合磁导向解决方案",
+    "magneticSystem": {
+      "title": "磁导向系统",
+      "subtitle": "四个基本组件",
+      "description": "磁导向系统由四部分组成："
+    },
+    "specifications": "规格",
+    "keyBenefits": "主要优点",
+    "specsDiagram": "规格图"
+  },
+  "caseStudies": {
+    "title": "案例研究",
+    "subtitle": "展示SmartDrill精密导向解决方案的真实项目",
+    "stats": {
+      "projects": "已完成项目",
+      "longest": "最长穿越",
+      "countries": "国家",
+      "accuracy": "相遇精度"
+    },
+    "projectDescription": "项目描述",
+    "projectGallery": "项目图库",
+    "projectImages": "项目图像",
+    "previousProject": "上一个项目",
+    "nextProject": "下一个项目",
+    "backToCaseStudies": "返回案例研究",
+    "stats": {
+      "length": "长度",
+      "pipeSpec": "管道规格",
+      "elevation": "海拔",
+      "formation": "地层",
+      "rigs": "HDD钻机",
+      "guidance": "导向"
+    }
+  },
+  "about": {
+    "title": "关于SmartDrill",
+    "subtitle": "HDD钻探精密磁导向系统的领先提供商",
+    "productRange": "产品范围",
+    "applications": "应用",
+    "appItems": {
+      "river": "河流穿越",
+      "mountain": "山脉穿越",
+      "highway": "公路/铁路穿越",
+      "urban": "城市公用设施安装",
+      "oilGas": "石油和天然气管道安装",
+      "water": "供水系统",
+      "telecom": "电信管道"
+    },
+    "stats": {
+      "projects": "全球项目",
+      "years": "经验年限",
+      "support": "技术支持"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "联系我们的团队进行咨询、报价或技术支持",
+    "name": "姓名",
+    "email": "电子邮件",
+    "company": "公司",
+    "message": "留言",
+    "send": "发送消息",
+    "sending": "发送中...",
+    "success": "消息发送成功！",
+    "error": "发送消息失败。请重试。",
+    "getInTouch": "联系我们",
+    "interestText": "对我们的磁导向系统感兴趣？联系我们获取产品信息、价格或讨论您的项目要求。",
+    "whatsapp": "WhatsApp/电话",
+    "emailLabel": "电子邮件",
+    "address": "地址",
+    "sendInquiry": "发送询问",
+    "yourName": "您的姓名 *",
+    "companyName": "公司",
+    "country": "国家",
+    "emailAddress": "电子邮件 *",
+    "phoneWhatsApp": "电话/WhatsApp",
+    "yourMessage": "您的留言 *"
+  },
+  "videos": {
+    "title": "产品视频",
+    "subtitle": "观看涵盖系统设置和操作的综合教程",
+    "undergroundEquipment": "地下设备连接",
+    "groundEquipment": "地面设备设置",
+    "softwareInterface": "软件界面指南",
+    "dataAcquisition": "数据采集教程",
+    "keyConcepts": "关键概念解释",
+    "planWorkflow": "计划数据工作流程"
+  },
+  "footer": {
+    "tagline": "精密HDD磁导向系统",
+    "products": "产品",
+    "company": "公司",
+    "resources": "资源",
+    "contact": "联系",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "SmartDrill。版权所有。"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "retry": "重试"
+  }
+}
